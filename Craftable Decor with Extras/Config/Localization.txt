@@ -1,0 +1,89 @@
+key,file,english
+
+signShopVariant,blocks,"Shop Sign Variant block"
+signShopVariantDecs,blocks,"Allows you to chose from 66 variations of all the shop signs lit and unlit as well as wall mounted version."
+caveDecorVariant,blocks,"Cave Decor Variant block"
+caveDecorVariantDesc,blocks,"Allows you to chose from Stalagmites, Stalactites and Boulders."
+woodenOutdoorDecorVariant,blocks,"Wooden Outdoor Decor Variant block"
+woodenOutdoorDecorVariantDesc,blocks,"Wooden landscape decorations."
+bodyBagVariant,blocks,"Bodybag Variant block"
+bodyBagVariantDesc,blocks,"Some variations of bodybags to chose from."
+mannequinVariant,blocks,"Mannequin Variant block"
+mannequinVariantDesc,blocks,"Makes male and female mannequins also broken version."
+paperPostersVariant,blocks,"Paper Posters Variant block"
+paperPostersVariantDesc,blocks,"Wanted posters, hand wash poster, fresh bread posters and more!"
+paintingVariant,blocks,"Framed Posters Variant block"
+paintingVariantDesc,blocks,"Paintings and Movie posters"
+shopFurnitureVariant,blocks,"Shop Furniture Variant block"
+shopFurnitureVariantDesc,blocks,"Shelves and racks, Heaps and piles of random stuff for your shop and base decorating needs."
+shopStorageVariant,blocks,"Shop Storage Variant block"
+shopStorageVariantDesc,blocks,"To display proper what your shop is all about. These storages are insecure!"
+decoDoorVariant,blocks,"Decorative Door Variant"
+decoDoorVariantDesc,blocks,"The Commercial and Front Door variants."
+strcommercialDoor1_v1,blocks,"Reinforced Commercial Door"
+strcommercialDoor2_v1,blocks,"Reinforced Commercial Door"
+strcommercialDoor4_v1,blocks,"Reinforced Commercial Door"
+strhouseFrontDoor1_v1,blocks,"Reinforced Wooden Door"
+strhouseFrontDoor2_v1,blocks,"Reinforced Wooden Door"
+strdecoDoorVariant,blocks,"Strong Decorative Door Variant"
+strdecoDoorVariantDesc,blocks,"The Strong versions of the Commercial and Front Door variants."
+workingStove,blocks,"Working Wood Burning Stove"
+workingStove2,blocks,"Working Old Stove"
+workingStove3,blocks,"Working Modern Stove"
+workingStove4,blocks,"Working Wall Oven"
+Smelter,blocks,"Smelter"
+ChemistrySet,blocks,"Chemistry Set"
+signShopOpenPlayer,blocks,sign Shop Open Player
+porchLight01player,blocks,porch Light 01 player
+porchLight04player,blocks,porch Light 04 player
+porchLight04Brassplayer,blocks,porch Light 04 Brass player
+ceilingLight01player,blocks,ceiling Light 01 player
+ceilingLight01_2x2player,blocks,ceiling Light 01 2x2 player
+ceilingLight02player,blocks,ceiling Light 02 player
+ceilingLight02_2x2player,blocks,ceiling Light 02 2x2 player
+ceilingLight02Brassplayer,blocks,ceiling Light 02 Brass player
+ceilingLight02Brass_2x2player,blocks,ceiling Light 02 Brass 2x2 player
+ceilingLight04player,blocks,ceiling Light 04 player
+ceilingLight05player,blocks,ceiling Light 05 player
+ceilingLight05Brassplayer,blocks,ceiling Light 05 Brass player
+recessedLightplayer,blocks,recessed Light player
+recessedLight_2x2player,blocks,recessed Light 2x2 player
+wallLight01player,blocks,wall Light 01 player
+ceilingLight07player,blocks,ceiling Light 07 player
+ceilingLight07_2x2player,blocks,ceiling Light 07 2x2 player
+fluorescentLightplayer,blocks,fluorescent Light player
+fluorescentLightBayIntactplayer,blocks,fluorescent Light Bay Intact player
+fluorescentLightBayBrokenplayer,blocks,fluorescent Light Bay Broken player
+fluorescentLightBayBrokenOffplayer,blocks,fluorescent Light Bay Broken Off player
+fluorescentLightBayBrokenFlickerplayer,blocks,fluorescent Light Bay Broken Flicker player
+trackLightplayer,blocks,track Light player
+industrialLight01player,blocks,industrial Light 01 player
+sconce1Lightplayer,blocks,sconce 1 Light player
+sconce1LightShadowplayer,blocks,sconce 1 Light Shadow player
+lanternDecorLightplayer,blocks,lantern Decor Light player
+flashlightDecorplayer,blocks,flashlight Decor player
+industrialLight02player,blocks,industrial Light 02 player
+industrialLight02Redplayer,blocks,industrial Light 02 Red player
+ceilingFanLightplayer,blocks,ceiling Fan Light player
+chandelierLightplayer,blocks,chandelier Light player
+endTableLampplayer,blocks,end Table Lamp player
+signExitLightplayer,blocks,sign Exit Light player
+roadBarricadeLightplayer,blocks,road Barricade Light player
+deskLampLightplayer,blocks,desk Lamp Light player
+tableLampLightplayer,blocks,table Lamp Light player
+tableLampLightCenteredplayer,blocks,table Lamp Light Centered player
+tableLampTippedOverLightplayer,blocks,table Lamp Tipped Over Light player
+workLightPOIplayer,blocks,work Light POI player
+streetLight01player,blocks,street Light 01 player
+streetLight02player,blocks,street Light 02 player
+streetLight03player,blocks,street Light 03 player
+streetLight04player,blocks,street Light 04 player
+streetLightBrokenplayer,blocks,street Light Broken player
+streetLightBrokenDestroyedplayer,blocks,street Light Broken Destroyed player
+streetLightClassicplayer,blocks,street Light Classic player
+spotlightNailedDownPOIplayer,blocks,spotlight Nailed Down POI player
+projectorCeilingplayer,blocks,projector Ceiling player
+projectorTableTopplayer,blocks,projector Table Top player
+signPillsLogoplayer,blocks,sign Pills Logo player
+signPillsLogoSmallplayer,blocks,sign Pills Logo Small player
+PlayerLightsVariant,blocks,Player Lights Variant

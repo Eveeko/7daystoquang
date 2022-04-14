@@ -1,0 +1,216 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="signShopVariant" count="1" craft_area="workbench" craft_time="12">
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceWood" count="12"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+</recipe>
+		
+<recipe name="caveDecorVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceRockSmall" count="100"/>
+	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="25"/>
+</recipe>
+		
+
+<recipe name="woodenOutdoorDecorVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceWood" count="50"/>
+</recipe>
+
+<recipe name="bodyBagVariant" count="1" craft_area="workbench" craft_time="20">
+	<ingredient name="foodRottingFlesh" count="20"/>
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="15"/>
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+</recipe>
+
+<recipe name="mannequinVariant" count="1" craft_area="cementMixer" tags="cementMixerCrafting" craft_time="30">
+	<ingredient name="resourceRockSmall" count="20"/>
+	<ingredient name="resourceConcreteMix" count="10"/>
+</recipe>
+
+<recipe name="oreIronBoulder" count="1" craft_area="workbench" craft_time="30">
+	<ingredient name="resourceScrapIron" count="200"/>
+</recipe>
+
+<recipe name="oreLeadBoulder" count="1" craft_area="workbench" craft_time="30">
+	<ingredient name="resourceScrapLead" count="200"/>
+</recipe>
+
+<recipe name="oreCoalBoulder" count="1" craft_area="workbench" craft_time="30">
+	<ingredient name="resourceCoal" count="200"/>
+</recipe>
+
+<recipe name="orePotassiumNitrateBoulder" count="1" craft_area="workbench" craft_time="30">
+	<ingredient name="resourcePotassiumNitratePowder" count="200"/>
+</recipe>
+
+<recipe name="oreShaleBoulder" count="1" craft_area="workbench" craft_time="30">
+	<ingredient name="resourceOilShale" count="200"/>
+</recipe>
+
+<recipe name="paperPostersVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourcePaint" count="1"/>
+</recipe>
+
+<recipe name="paintingVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourcePaint" count="1"/>
+	<ingredient name="resourceWood" count="12"/>
+	<ingredient name="resourceBrokenGlass" count="10"/>
+</recipe>
+
+<recipe name="shopFurnitureVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceScrapIron" count="150"/>
+	<ingredient name="resourcePaint" count="1"/>
+	<ingredient name="resourceWood" count="75"/>
+	<ingredient name="resourceBrokenGlass" count="30"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="shopStorageVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceScrapIron" count="150"/>
+	<ingredient name="resourcePaint" count="1"/>
+	<ingredient name="resourceWood" count="75"/>
+	<ingredient name="resourceBrokenGlass" count="30"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="resourceSpring" count="3" material_based="true" craft_area="forge" craft_time="40">
+	<ingredient name="unit_iron" count="60"/>
+	<ingredient name="unit_clay" count="5"/>
+</recipe>
+	
+<recipe name="decoDoorVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceScrapIron" count="60"/>
+	<ingredient name="resourcePaint" count="1"/>
+	<ingredient name="resourceWood" count="60"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+</recipe>
+
+<recipe name="strdecoDoorVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceScrapIron" count="120"/>
+	<ingredient name="resourcePaint" count="1"/>
+	<ingredient name="resourceWood" count="120"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="workingStove" count="1" craft_area="workbench" craft_time="15">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceElectricParts" count="16"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="workingStove2" count="1" craft_area="workbench" craft_time="15">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceElectricParts" count="16"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="workingStove3" count="1" craft_area="workbench" craft_time="15">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceElectricParts" count="16"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="workingStove4" count="1" craft_area="workbench" craft_time="15">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceElectricParts" count="16"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="Smelter" count="1" craft_area="workbench" craft_time="15">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceConcreteMix" count="10"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="ChemistrySet" count="1" craft_area="workbench" craft_time="15">
+	<ingredient name="toolBeaker" count="5"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="toolCookingPot" count="3"/>
+	<ingredient name="resourceMetalPipe" count="30"/>
+	<ingredient name="resourceAcid" count="5"/>
+</recipe>
+
+<recipe name="ammoArrowIron" count="2">
+	<ingredient name="ammoCrossbowBoltIron" count="3"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltIron" count="2">
+	<ingredient name="ammoArrowIron" count="3"/>
+</recipe>
+
+<recipe name="ammoArrowFlaming" count="2">
+	<ingredient name="ammoCrossbowBoltFlaming" count="3"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltFlaming" count="2">
+	<ingredient name="ammoArrowFlaming" count="3"/>
+</recipe>
+
+<recipe name="ammoArrowExploding" count="2">
+	<ingredient name="ammoCrossbowBoltExploding" count="3"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltExploding" count="2">
+	<ingredient name="ammoArrowExploding" count="3"/>
+</recipe>
+
+<recipe name="ammoArrowSteelAP" count="2">
+	<ingredient name="ammoCrossbowBoltSteelAP" count="3"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltSteelAP" count="2">
+	<ingredient name="ammoArrowSteelAP" count="3"/>
+</recipe>
+
+<recipe name="ammoArrowStone" count="2">
+	<ingredient name="ammoCrossbowBoltStone" count="3"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltStone" count="2">
+	<ingredient name="ammoArrowStone" count="3"/>
+</recipe>
+
+<recipe name="resourceDoorKnob" count="2" craft_area="forge" craft_time="5">
+	<ingredient name="unit_brass" count="75"/>
+	<ingredient name="unit_iron" count="12"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+
+<recipe name="resourceRadiator" count="2" craft_area="forge" craft_time="15">
+	<ingredient name="unit_brass" count="190"/>
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="30"/>
+</recipe>
+
+<recipe name="resourceAcid" count="3" craft_area="chemistryStation" craft_time="35">
+	<ingredient name="carBattery" count="5"/>
+</recipe>
+
+<recipe name="PlayerLightsVariant" count="1" craft_area="workbench" craft_time="5">
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="resourceScrapIron" count="12"/>
+	<ingredient name="resourceBrokenGlass" count="10"/>
+</recipe>
+
+	</append>
+</configs>

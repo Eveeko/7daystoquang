@@ -1,0 +1,37 @@
+<configs>
+	<setattribute xpath="/items/item[@name='bucketEmpty']/property[@name='Stacknumber']" name="value">25</setattribute>
+	<setattribute xpath="/items/item[@name='bucketRiverWater']/property[@name='Stacknumber']" name="value">25</setattribute>
+	
+	<!-- Fix Prices -->
+	<setattribute xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']" name="value">true</setattribute>
+	
+
+	<!-- Fill jars -->
+	<append xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="faucet02"/>
+		<property name="Focused_blockname_7" value="faucet04"/>
+		<property name="Focused_blockname_8" value="faucetBrass02"/>
+		<property name="Focused_blockname_9" value="faucetBrass04"/>
+		<property name="Focused_blockname_10" value="showerHead"/>
+		<property name="Focused_blockname_11" value="pedestalSink"/>
+		<property name="Focused_blockname_12" value="utilitySink"/>
+		<property name="Focused_blockname_13" value="drinkingfountainSingle"/>
+		<property name="Focused_blockname_14" value="counterMountedSinkCommercial"/>
+		<property name="Focused_blockname_16" value="drinkingfountainDouble"/>
+	</append>
+
+	<!-- Fill buckets -->
+	<append xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="faucet02"/>
+		<property name="Focused_blockname_7" value="faucet04"/>
+		<property name="Focused_blockname_8" value="faucetBrass02"/>
+		<property name="Focused_blockname_9" value="faucetBrass04"/>
+		<property name="Focused_blockname_10" value="showerHead"/>
+		<property name="Focused_blockname_11" value="pedestalSink"/>
+		<property name="Focused_blockname_12" value="utilitySink"/>
+		<property name="Focused_blockname_13" value="drinkingfountainSingle"/>
+		<property name="Focused_blockname_14" value="counterMountedSinkCommercial"/>
+		<property name="Focused_blockname_16" value="drinkingfountainDouble"/>
+	</append>
+
+</configs>
