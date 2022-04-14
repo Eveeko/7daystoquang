@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Remove Demolisher Explosions" />
+        <Description value="This mod removes the explosive block damage from demolishers" />
+        <Author value="The Freehold" />
+        <Version value="1.0." />
+    </ModInfo>
+</xml>

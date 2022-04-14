@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="DxM-VehicleAdj" />
+        <Description value="Vehicle Adjustments." />
+        <Author value="Dajoor"/>
+        <Version value="20.2.2.1"/>
+    </ModInfo>
+</xml>

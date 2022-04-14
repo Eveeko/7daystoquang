@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="DxM-ReLoot" />
+        <Description value="Loot Overhaul." />
+        <Author value="Dajoor"/>
+        <Version value="20.2.2.2"/>
+    </ModInfo>
+</xml>

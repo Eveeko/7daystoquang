@@ -1,0 +1,18 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+kotpq_name,Quests,Quests,,,"King of the PoI"
+kotpq_subtitle,Quests,Quests,,,"King of the PoI"
+kotpq_desc,Quests,Quests,,,"Earn Schematics - Be King of the PoI."
+kotpq_offer,Quests,Quests,,,"Clear and Defend [DECEA3]{poi.name}[-]"
+kotpq_stat,Quests,Quests,,,"King of the PoI"
+kotp_response,Quests,Quests,,,"King of the PoI  ([DECEA3]{poi.distance} {poi.direction}[-])"
+kotpq_comp,Quests,Quests,,,"Congratulations. You are still alive."
+
+perkDaringAdventurerDesc,Progression,Perk,,,"Grants 25% reward amount bonus, and increases Zombie loot drop probability by 10%, per level."
+perkDaringAdventurerRank1Desc,Progression,Perk,,,"+25% bonus reward amount. +10% zombie loot drop chance."
+perkDaringAdventurerRank2Desc,Progression,Perk,,,"+50% bonus reward amount. +20% zombie loot drop chance."
+perkDaringAdventurerRank3Desc,Progression,Perk,,,"+75% bonus reward amount. +30% zombie loot drop chance."
+perkDaringAdventurerRank4Desc,Progression,Perk,,,"+100% bonus reward amount. +40% zombie loot drop chance."
+perkDaringAdventurerRank1LongDesc,Progression,Perk,,,"+25% bonus reward amount. +10% zombie loot drop chance."
+perkDaringAdventurerRank2LongDesc,Progression,Perk,,,"+50% bonus reward amount. +20% zombie loot drop chance."
+perkDaringAdventurerRank3LongDesc,Progression,Perk,,,"+75% bonus reward amount. +30% zombie loot drop chance."
+perkDaringAdventurerRank4LongDesc,Progression,Perk,,,"+100% bonus reward amount. +40% zombie loot drop chance."

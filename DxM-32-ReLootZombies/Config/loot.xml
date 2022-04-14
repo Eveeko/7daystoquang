@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<insertAfter xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']">
+		<lootqualitytemplate name="zqtpackeven">
+			<qualitytemplate level="0,99999" default_quality="4">
+				<loot quality="1" prob="0.1" />
+				<loot quality="2" prob="0.15" />
+				<loot quality="3" prob="0.25" />
+				<loot quality="4" prob="0.3" />
+				<loot quality="5" prob="0.2" />
+				<loot quality="6" prob="0.1" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</insertAfter>
+
+  <append xpath="/lootcontainers">
+  	 <lootgroup name="groupZSMilitaryArmor" loot_quality_template="zqtpackeven">
+		<item name="armorMilitaryHelmet" prob="0.3" count="1"  />
+		<item name="armorMilitaryGloves" prob="0.3" count="1"  />
+		<item name="armorMilitaryVest" prob="0.3" count="1"  />
+		<item name="armorMilitaryLegs" prob="0.3" count="1"  />
+		<item name="armorMilitaryBoots" prob="0.3" count="1"  />
+		<item name="armorMilitaryStealthBoots" prob="0.1" count="1"  />
+	</lootgroup>
+	
+	 <lootgroup name="groupZSLeatherArmor" loot_quality_template="zqtpackeven">
+		<item name="armorLeatherHood" prob="0.3" count="1" />
+		<item name="armorLeatherGloves" prob="0.3" count="1" />
+		<item name="armorLeatherChest" prob="0.3" count="1" />
+		<item name="armorLeatherPants" prob="0.3" count="1" />
+		<item name="armorLeatherBoots" prob="0.3" count="1" />
+	</lootgroup>
+	
+	 <lootgroup name="groupZSClothArmor" loot_quality_template="zqtpackeven">
+		<item name="armorClothHat" prob="0.3" count="1"  />
+		<item name="armorClothGloves" prob="0.3" count="1"  />
+		<item name="armorClothJacket" prob="0.3" count="1"  />
+		<item name="armorClothPants" prob="0.3" count="1"  />
+		<item name="armorClothBoots" prob="0.3" count="1"  />
+	</lootgroup>
+	
+	 <lootgroup name="groupZSIronArmor" loot_quality_template="zqtpackeven">
+		<item name="armorIronChest" prob="0.3" count="1"  />
+		<item name="armorIronGloves" prob="0.3" count="1"  />
+		<item name="armorIronLegs" prob="0.3" count="1"  />
+		<item name="armorIronHelmet" prob="0.3" count="1"  />
+		<item name="armorIronBoots" prob="0.3" count="1"  />
+	</lootgroup>
+	
+	 <lootgroup name="groupZSSteelArmor" loot_quality_template="zqtpackeven">
+		<item name="armorSteelBoots" prob="0.3" count="1"  />
+		<item name="armorSteelChest" prob="0.3" count="1"  />
+		<item name="armorSteelGloves" prob="0.3" count="1"  />
+		<item name="armorSteelLegs" prob="0.3" count="1"  />
+		<item name="armorSteelHelmet" prob="0.3" count="1"  />
+	</lootgroup>
+
+	<lootcontainer id="700" name="zPackStandard" count="3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="resourceSewingKit" prob="0.3" count="1" />
+		<item name="resourcePaper" prob="0.3" count="5,10" />
+		<item name="resourceFishingWeight" prob="0.3" count="1" />
+		<item name="resourceTrophy1" prob="0.3" count="1" />
+		<item name="resourceTrophy2" prob="0.3" count="1" />
+		<item name="resourceTrophy3" prob="0.3" count="1" />
+		<item name="oldCash" count="1,50" />
+		<item name="resourceGlue" prob="0.3" count="1" />
+		<item name="resourceDuctTape" prob="0.3" count="1" />
+		<item name="resourceLockPick" prob="0.3" count="1" />
+		<item name="drugVitamins" prob="0.3" count="1" />
+		<item name="drugPainkillers" prob="0.3" count="1" />
+		<item name="drugHerbalAntibiotics" prob="0.3" count="1" />
+		<item name="drinkJarPureMineralWater" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="701" name="zPackPartyGirl" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="drinkCanMegaCrush" prob="0.3" count="1" />
+		<item name="oldCash" count="10,200" />
+		<item name="drugSugarButts" prob="0.3" count="1" />
+		<item name="drugSkullCrushers" prob="0.3" count="1" />
+		<item name="drugRockBusters" prob="0.3" count="1" />
+		<item name="drugOhShitzDrops" prob="0.3" count="1" />
+		<item name="drugNerdTats" prob="0.3" count="1" />
+		<item name="drugJailBreakers" prob="0.3" count="1" />
+		<item name="drugHealthBar" prob="0.3" count="1" />
+		<item name="drugHackers" prob="0.3" count="1" />
+		<item name="drugEyeKandy" prob="0.3" count="1" />
+		<item name="drugCovertCats" prob="0.3" count="1" />
+		<item name="drugAtomJunkies" prob="0.3" count="1" />
+		<item name="drugRecog" prob="0.15" count="1" />
+		<item name="drugAntibiotics" prob="0.15" count="1" />
+		<item name="medicalAloeCream" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="702" name="zPackNurse" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="oldCash" count="1,20" />
+		<item name="medicalAloeCream" prob="0.3" count="1" />
+		<item name="medicalBandage" prob="0.3" count="1" />
+		<item name="medicalFirstAidBandage" prob="0.5" count="1" />
+		<item name="medicalFirstAidKit" prob="0.3" count="1" />
+		<item name="medicalSplint" prob="0.3" count="1" />
+		<item name="medicalPlasterCast" prob="0.3" count="1" />
+		<item name="medicalBloodBag" prob="0.3" count="1" />
+		<item name="drugVitamins" prob="0.3" count="1" />
+		<item name="drugHealthBar" prob="0.3" count="1" />
+		<item name="drugPainkillers" prob="0.3" count="1" />
+		<item name="drugHerbalAntibiotics" prob="0.3" count="1" />
+		<item name="drugAntibiotics" prob="0.3" count="1" />
+		<item name="drinkJarPureMineralWater" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="703" name="zPackBusiness" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="drinkJarCoffee" count="1" />
+		<item name="oldCash" count="10,100" />
+		<item group="schematicsWeaponsArmorT0" prob="0.3" count="1" />
+		<item group="schematicsWeaponsArmorT1" prob="0.3" count="1" />
+		<item group="schematicsWeaponsArmorT2" prob="0.3" count="1" />
+		<item group="weaponParts" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="704" name="zPackBurnt" count="3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="resourceCoal" count="3,100" />
+		<item name="resourceBone" count="3,20" />
+		<item name="ammoGasCan" count="3,100" />
+		<item group="dyes" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="705" name="zPackMech" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="modVehicleOffRoadHeadlights" prob="0.1" count="1" />
+		<item name="modVehicleFuelSaver" prob="0.1" count="1" />
+		<item name="modVehicleReserveFuelTank" prob="0.1" count="1" />
+		<item name="modVehicleExpandedSeat" prob="0.1" count="1" />
+		<item name="vehicle4x4TruckChassis" prob="0.1" count="1" />
+		<item name="vehicle4x4TruckAccessories" prob="0.1" count="1" />
+		<item name="vehicleGyroCopterChassis" prob="0.1" count="1" />
+		<item name="vehicleGyroCopterAccessories" prob="0.1" count="1" />
+		<item group="schematicsToolsT0" prob="0.3" count="1" />
+		<item group="schematicsToolsT1" prob="0.3" count="1" />
+		<item group="schematicsToolsT2" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="706" name="zPackLabrat" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="resourceGunPowder" count="1,20" />
+		<item name="resourcePaper" prob="0.3" count="10,20" />
+		<item name="resourceCloth" prob="0.3" count="5,10" />
+		<item name="resourceAcid" count="1" />
+		<item name="toolBeaker" prob="0.3" count="1" />
+		<item group="farmingCookingRecipesT0" prob="0.3" count="1" />
+		<item group="farmingCookingRecipesT1" prob="0.3" count="1" />
+		<item group="farmingCookingRecipesT2" prob="0.3" count="1" />
+		<item group="seeds" prob="0.5" count="1,3" />
+	</lootcontainer>
+	
+	<lootcontainer id="707" name="zPackWorker" count="3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="resourceCrushedSand" prob="0.3" count="10,30" />
+		<item name="resourceWood" prob="0.3" count="5,15" />
+		<item name="resourceBrokenGlass" prob="0.3" count="1" />
+		<item name="resourceScrapIron" prob="0.3" count="5,10" />
+		<item name="resourceForgedIron" prob="0.3" count="3" />
+		<item name="resourceMetalPipe" prob="0.3" count="3" />
+		<item name="resourceForgedSteel" prob="0.3" count="1" />
+		<item name="resourceScrapPolymers" prob="0.3" count="1" />
+		<item name="resourceScrapBrass" prob="0.3" count="10,30" />
+		<item name="resourceScrapLead" prob="0.3" count="10,30" />
+		<item name="resourceCement" prob="0.3" count="15,50" />
+		<item name="resourceConcreteMix" prob="0.3" count="5,10" />
+		<item name="resourceElectricParts" prob="0.3" count="1,5" />
+		<item name="resourceElectronicParts" prob="0.3" count="1" />
+		<item name="resourceMechanicalParts" prob="0.3" count="1,5" />
+		<item name="resourceNail" count="3,10" />
+		<item name="resourceRepairKit" count="1" />
+		<item name="resourcePaint" prob="0.3" count="3,9" />
+		<item group="groupToolsT1" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="708" name="zPackBiker" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="smallEngine" prob="0.1" count="1"  />
+		<item name="vehicleWheels" prob="0.1" count="1"  />
+		<item name="carBattery" prob="0.1" count="1"  />
+		<item name="ammoGasCan" prob="0.5" count="1,5"  />
+		<item name="modVehicleSuperCharger" prob="0.1" count="1" />
+		<item name="vehicleMotorcycleChassis" prob="0.1" count="1" />
+		<item name="vehicleMotorcycleHandlebars" prob="0.1" count="1" />
+		<item name="drinkJarBeer" count="1,6" />
+	</lootcontainer>
+	
+	<lootcontainer id="709" name="zPackLumber" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="resourceSnowBall" prob="0.5" count="1,3" />
+		<item name="resourceWood" count="10,300" />
+		<item name="resourceLeather" prob="0.3" count="3,6" />
+		<item name="meleeToolAxeT1IronFireaxe" prob="0.1" count="1" />
+		<item name="meleeToolRepairT1ClawHammer" prob="0.1" count="1" />
+		<item name="meleeToolAxeT2SteelAxe" prob="0.1" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="710" name="zPackFatFem" count="3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="foodHoney" prob="0.3" count="1" />
+		<item name="foodCanBeef" prob="0.3" count="1" />
+		<item name="foodCanChicken" prob="0.3" count="1" />
+		<item name="foodCanLamb" prob="0.3" count="1" />
+		<item name="foodCanChili" prob="0.3" count="1" />
+		<item name="foodCanTuna" prob="0.3" count="1" />
+		<item name="foodCanPasta" prob="0.3" count="1" />
+		<item name="foodCanSalmon" prob="0.3" count="1" />
+		<item name="foodCanMiso" prob="0.3" count="1" />
+		<item name="foodCanSoup" count="1" />
+		<item name="foodCornOnTheCob" prob="0.2" count="1" />
+		<item name="foodCornBread" prob="0.2" count="1" />
+		<item name="foodMeatStew" prob="0.3" count="1" />
+		<item name="foodSteakAndPotato" prob="0.3" count="1" />
+		<item name="foodFishTacos" prob="0.3" count="1" />
+		<item name="foodChiliDog" prob="0.3" count="1" />
+		<item name="foodBakedPotato" prob="0.3" count="1" />
+		<item name="foodBlueberryPie" prob="0.3" count="1" />
+		<item name="foodPumpkinPie" prob="0.3" count="1" />
+		<item name="foodPumpkinCheesecake" prob="0.3" count="1" />
+		<item name="foodShepardsPie" prob="0.3" count="1" />
+		<item name="foodSpaghetti" prob="0.3" count="1" />
+		<item name="foodTunaFishGravyToast" prob="0.3" count="1" />
+		<item name="foodBaconAndEggs" prob="0.3" count="1" />
+		<item name="foodVegetableStew" prob="0.3" count="1" />
+		<item name="drinkYuccaJuiceSmoothie" prob="0.3" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="711" name="zPackHazmat" count="1" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="apparelHazmatBoots" prob="0.1" count="1" />
+		<item name="apparelHazmatPants" prob="0.1" count="1" />
+		<item name="apparelHazmatJacket" prob="0.1" count="1" />
+		<item name="apparelHazmatGloves" prob="0.1" count="1" />
+		<item name="apparelHazmatMask" prob="0.1" count="1" />
+		<item name="apparelHazmatMask" prob="0.1" count="1" />
+		<item name="drinkCanMegaCrush" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="712" name="zPackFatCop" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item group="groupZSClothArmor" />
+		<item name="ammo9mmBulletBall" prob="0.5" count="6,18" />
+		<item name="ammoShotgunShell" prob="0.5" count="3,6" />
+		<item name="foodChiliDog" count="1" />
+		<item name="drinkJarCoffee" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="713" name="zPackSoldier" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item group="groupZSMilitaryArmor" />
+		<item name="resourceMilitaryFiber" prob="0.5" count="1,3" />
+		<item name="ammo762mmBulletBall" prob="0.5" count="6,18" />
+		<item name="ammo762mmBulletHP" prob="0.3" count="6,18" />
+		<item name="ammo762mmBulletAP" prob="0.3" count="6,18" />
+		<item name="gunRifleT3SniperRifle" prob="0.1" count="1" />
+		<item name="gunMGT1AK47" prob="0.1" count="1" />
+		<item name="gunMGT2TacticalAR" prob="0.1" count="1" />
+		<item name="gunMGT3M60" prob="0.1" count="1" />
+		<item name="gunShotgunT3AutoShotgun" prob="0.1" count="1" />
+		<item name="gunHandgunT3DesertVulture" prob="0.1" count="1" />
+		<item name="gunHandgunT3SMG5" prob="0.1" count="1" />
+		<item name="gunHandgunT1Pistol" prob="0.3" count="1" />
+		<item name="ammo9mmBulletBall" prob="0.5" count="6,18" />
+	</lootcontainer>
+	
+	<lootcontainer id="714" name="zPackWight" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item group="modMeleeT1" prob="0.3" count="1" />
+		<item group="modMeleeT2" prob="0.3" count="1" />
+		<item group="modMeleeT3" prob="0.3" count="1" />
+		<item name="drinkJarBlackStrapCoffee" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="715" name="zPackScreamer" count="1" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="bladeTrapSchematic" prob="0.3" count="1" />
+		<item name="dartTrapSchematic" prob="0.3" count="1" />
+		<item name="shotgunTurretSchematic" prob="0.3" count="1" />
+		<item name="autoTurretSchematic" prob="0.3" count="1" />
+		<item name="electricfencepostSchematic" prob="0.3" count="1" />
+		<item name="motionsensorSchematic" prob="0.3" count="1" />
+		<item name="speakerSchematic" prob="0.3" count="1" />
+		<item name="spotlightPlayerSchematic" prob="0.3" count="1" />
+		<item name="pressureplateSchematic" prob="0.3" count="1" />
+		<item name="electrictimerrelaySchematic" prob="0.3" count="1" />
+		<item name="electrictimerrelaySchematic" prob="0.3" count="1" />
+		<item name="oldCash" count="10" />
+	</lootcontainer>
+	
+	<lootcontainer id="716" name="zPackDemo" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item group="groupZSLeatherArmor" />
+		<item group="groupZSIronArmor" />
+		<item group="groupZSSteelArmor" />
+		<item name="thrownAmmoPipeBomb" prob="0.5" count="1" />
+		<item name="thrownGrenadeContact" prob="0.1" count="1" />
+		<item name="thrownGrenade" prob="0.1" count="1" />
+		<item name="thrownTimedCharge" prob="0.1" count="1" />
+		<item name="thrownDynamite" count="1,3" />
+		<item name="thrownAmmoMolotovCocktail" prob="0.5" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="717" name="zPackThug" count="2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item name="resourceRepairKit" count="1" />
+		<item group="groupWeaponsT0_Melee" count="1" />
+		<item group="groupWeaponsT1_Melee" count="1" />
+		<item group="groupWeaponsT2_Melee" count="1" />
+		<item group="groupWeapons_MeleeParts" count="1,3" />
+		<item group="groupToolsT1" count="1" />
+	</lootcontainer>
+	
+	<lootcontainer id="718" name="zPackCrawler" count="1" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="zqtpackeven">
+		<item group="groupTrophies" count="1,3" />
+	</lootcontainer>
+  </append>
+</configs>

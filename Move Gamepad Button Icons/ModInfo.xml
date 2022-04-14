@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="Move Gamepad Button Icons" />
+		<Description value="Moves gamepad button icons so it's not covered by parts of the HUD on 7D2D when using a gamepad." />
+		<Author value="SSyl" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

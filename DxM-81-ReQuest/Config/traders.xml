@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<removeattribute xpath="/traders/trader_info/@open_time" />
+	<removeattribute xpath="/traders/trader_info/@close_time" />
+</configs>

@@ -1,0 +1,21 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+lczPackStandard,UI,Menu,,,Loot?!
+lczPackPartyGirl,UI,Menu,,,Loot?!
+lczPackNurse,UI,Menu,,,Loot?!
+lczPackBusiness,UI,Menu,,,Loot?!
+lczPackBurnt,UI,Menu,,,Loot?!
+lczPackMech,UI,Menu,,,Loot?!
+lczPackLabrat,UI,Menu,,,Loot?!
+lczPackWorker,UI,Menu,,,Loot?!
+lczPackBiker,UI,Menu,,,Loot?!
+lczPackLumber,UI,Menu,,,Loot?!
+lczPackFatFem,UI,Menu,,,Loot?!
+lczPackHazmat,UI,Menu,,,Loot?!
+lczPackFatCop,UI,Menu,,,Loot?!
+lczPackSoldier,UI,Menu,,,Loot?!
+lczPackWight,UI,Menu,,,Loot?!
+lczPackScreamer,UI,Menu,,,Loot?!
+lczPackDemo,UI,Menu,,,Loot?!
+lczPackThug,UI,Menu,,,Loot?!
+lczPackCrawler,UI,Menu,,,Loot?!
+

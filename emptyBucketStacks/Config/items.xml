@@ -1,0 +1,3 @@
+<config>
+	<setattribute xpath="items/item[@name='bucketEmpty']/property[@name='Stacknumber']" name="value">20</setattribute>
+</config>

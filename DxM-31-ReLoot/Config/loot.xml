@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<insertAfter xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']">
+		<lootqualitytemplate name="dlo_evendist">
+			<qualitytemplate level="0,99999" default_quality="3">
+				<loot quality="1" prob="0.2" />
+				<loot quality="2" prob="0.2" />
+				<loot quality="3" prob="0.3" />
+				<loot quality="4" prob="0.2" />
+				<loot quality="5" prob="0.2" />
+				<loot quality="6" prob="0.2" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="dlo_qualT1T2only">
+			<qualitytemplate level="0,99999" default_quality="1">
+				<loot quality="1" prob="0.5" />
+				<loot quality="2" prob="0.5" />
+				<loot quality="3" prob="0" />
+				<loot quality="4" prob="0" />
+				<loot quality="5" prob="0" />
+				<loot quality="6" prob="0" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="dlo_qualT2T3only">
+			<qualitytemplate level="0,99999" default_quality="2">
+				<loot quality="1" prob="0" />
+				<loot quality="2" prob="0.5" />
+				<loot quality="3" prob="0.5" />
+				<loot quality="4" prob="0" />
+				<loot quality="5" prob="0" />
+				<loot quality="6" prob="0" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="dlo_qualT3T4only">
+			<qualitytemplate level="0,99999" default_quality="3">
+				<loot quality="1" prob="0" />
+				<loot quality="2" prob="0" />
+				<loot quality="3" prob="0.5" />
+				<loot quality="4" prob="0.5" />
+				<loot quality="5" prob="0" />
+				<loot quality="6" prob="0" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="dlo_qualT4T5only">
+			<qualitytemplate level="0,99999" default_quality="4">
+				<loot quality="1" prob="0" />
+				<loot quality="2" prob="0" />
+				<loot quality="3" prob="0" />
+				<loot quality="4" prob="0.5" />
+				<loot quality="5" prob="0.5" />
+				<loot quality="6" prob="0" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="dlo_qualT4T5T6only">
+			<qualitytemplate level="0,99999" default_quality="5">
+				<loot quality="1" prob="0" />
+				<loot quality="2" prob="0" />
+				<loot quality="3" prob="0" />
+				<loot quality="4" prob="0.3" />
+				<loot quality="5" prob="0.5" />
+				<loot quality="6" prob="0.3" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+		<lootqualitytemplate name="dlo_qualT5T6only">
+			<qualitytemplate level="0,99999" default_quality="5">
+				<loot quality="1" prob="0" />
+				<loot quality="2" prob="0" />
+				<loot quality="3" prob="0" />
+				<loot quality="4" prob="0" />
+				<loot quality="5" prob="0.5" />
+				<loot quality="6" prob="0.5" />
+			</qualitytemplate>
+		</lootqualitytemplate>
+	</insertAfter>
+
+	  <insertAfter xpath="/lootcontainers/lootgroup[@name='empty']">
+		<lootgroup name="dlo_allcannedfood" >
+			<item name="foodHoney" prob="0.15" count="1"  />
+			<item name="foodCanBeef" prob="0.3" count="1"  />
+			<item name="foodCanChicken" prob="0.3" count="1"  />
+			<item name="foodCanLamb" prob="0.3" count="1"  />
+			<item name="foodCanCatfood" prob="0.3" count="1"  />
+			<item name="foodCanDogfood" prob="0.3" count="1"  />
+			<item name="foodCanChili" prob="0.5" count="1"  />
+			<item name="foodCanTuna" prob="0.3" count="1"  />
+			<item name="foodCanSham" prob="0.5" count="1"  />
+			<item name="foodCanPasta" prob="0.5" count="1"  />
+			<item name="foodCanSalmon" prob="0.3" count="1"  />
+			<item name="foodCanMiso" prob="0.3" count="1"  />
+			<item name="foodCanPeas" prob="0.5" count="1"  />
+			<item name="foodCanPears" prob="0.3" count="1"  />
+			<item name="foodCanSoup" prob="0.5" count="1"  />
+			<item name="foodCanStock" prob="0.3" count="1"  />
+		</lootgroup>
+		
+		<lootgroup name="dlo_allcookedfood" >
+			<item name="foodCornOnTheCob" prob="0.5" count="1"  />
+			<item name="foodCornBread" prob="0.5" count="1"  />
+			<item name="foodGrilledMeat" prob="0.5" count="1"  />
+			<item name="foodMeatStew" prob="0.3" count="1"  />
+			<item name="foodSteakAndPotato" prob="0.3" count="1"  />
+			<item name="foodShamChowder" prob="0.3" count="1"  />
+			<item name="foodHoboStew" prob="0.5" count="1"  />
+			<item name="foodFishTacos" prob="0.3" count="1"  />
+			<item name="foodChiliDog" prob="0.5" count="1"  />
+			<item name="foodBakedPotato" prob="0.5" count="1"  />
+			<item name="foodBlueberryPie" prob="0.3" count="1"  />
+			<item name="foodPumpkinPie" prob="0.3" count="1"  />
+			<item name="foodPumpkinCheesecake" prob="0.3" count="1"  />
+			<item name="foodPumpkinBread" prob="0.5" count="1"  />
+			<item name="foodGumboStew" prob="0.5" count="1"  />
+			<item name="foodShepardsPie" prob="0.3" count="1"  />
+			<item name="foodSpaghetti" prob="0.5" count="1"  />
+			<item name="foodTunaFishGravyToast" prob="0.3" count="1"  />
+			<item name="foodEggBoiled" prob="0.5" count="1"  />
+			<item name="foodBaconAndEggs" prob="0.3" count="1"  />
+			<item name="foodVegetableStew" prob="0.3" count="1"  />
+		</lootgroup>
+		
+		<lootgroup name="dlo_ingredients" >
+			<item name="foodRawMeat" prob="0.3" count="1"  />
+			<item name="foodEgg" prob="0.3" count="1"  />
+			<item name="foodCornMeal" prob="0.3" count="1"  />
+			<item name="foodCropBlueberries" prob="0.3" count="1"  />
+			<item name="foodCropCorn" prob="0.3" count="1"  />
+			<item name="foodCropPotato" prob="0.3" count="1"  />
+			<item name="foodCropMushrooms" prob="0.3" count="1"  />
+			<item name="foodCropYuccaFruit" prob="0.3" count="1"  />
+			<item name="foodCropPumpkin" prob="0.3" count="1"  />
+			<item name="drinkJarBoiledWater" prob="0.3" count="1"  />
+			<item name="drinkJarPureMineralWater" prob="0.3" count="1"  />
+		</lootgroup>
+		
+		<lootgroup name="dlo_drinks" >
+			<item name="drinkJarRiverWater" prob="0.5" count="1"  />
+			<item name="drinkJarBoiledWater" prob="0.5" count="1"  />
+			<item name="drinkJarPureMineralWater" prob="0.3" count="1"  />
+			<item name="drinkJarYuccaJuice" prob="0.3" count="1"  />
+			<item name="drinkJarGoldenRodTea" prob="0.3" count="1"  />
+			<item name="drinkJarRedTea" prob="0.5" count="1"  />
+			<item name="drinkCanMegaCrush" prob="0.3" count="1"  />
+			<item name="drinkJarCoffee" prob="0.5" count="1"  />
+			<item name="drinkJarBlackStrapCoffee" prob="0.3" count="1"  />
+			<item name="drinkJarBeer" prob="0.5" count="1"  />
+			<item name="drinkJarGrandpasMoonshine" prob="0.15" count="1"  />
+			<item name="drinkJarGrandpasAwesomeSauce" prob="0.15" count="1"  />
+			<item name="drinkJarGrandpasLearningElixir" prob="0.15" count="1"  />
+		</lootgroup>
+		
+		<lootgroup name="dlo_foodrecipes" >
+			<item name="drugHerbalAntibioticsSchematic" prob="0.3" count="1"  />
+			<item name="foodCanShamSchematic" prob="0.3" count="1"  />
+			<item name="drinkJarBeerSchematic" prob="0.3" count="1"  />
+			<item name="drinkJarCoffeeSchematic" prob="0.3" count="1"  />
+			<item name="drinkJarGoldenRodTeaSchematic" prob="0.3" count="1"  />
+			<item name="drinkJarGrandpasAwesomeSauceSchematic" prob="0.15" count="1"  />
+			<item name="drinkJarGrandpasLearningElixirSchematic" prob="0.15" count="1"  />
+			<item name="drinkJarGrandpasMoonshineSchematic" prob="0.15" count="1"  />
+			<item name="drinkJarRedTeaSchematic" prob="0.3" count="1"  />
+			<item name="drinkYuccaJuiceSmoothieSchematic" prob="0.3" count="1"  />
+			<item name="foodBaconAndEggsSchematic" prob="0.3" count="1"  />
+			<item name="foodBakedPotatoSchematic" prob="0.3" count="1"  />
+			<item name="foodBlueberryPieSchematic" prob="0.3" count="1"  />
+			<item name="foodPumpkinPieSchematic" prob="0.3" count="1"  />
+			<item name="foodPumpkinCheesecakeSchematic" prob="0.3" count="1"  />
+			<item name="foodPumpkinBreadSchematic" prob="0.3" count="1"  />
+			<item name="foodGumboStewSchematic" prob="0.3" count="1"  />
+			<item name="foodShepardsPieSchematic" prob="0.3" count="1"  />
+			<item name="foodSpaghettiSchematic" prob="0.3" count="1"  />
+			<item name="foodTunaFishGravyToastSchematic" prob="0.3" count="1"  />
+			<item name="foodChiliDogSchematic" prob="0.3" count="1"  />
+			<item name="foodCornBreadSchematic" prob="0.3" count="1"  />
+			<item name="foodCornOnTheCobSchematic" prob="0.3" count="1"  />
+			<item name="foodFishTacosSchematic" prob="0.3" count="1"  />
+			<item name="foodHoboStewSchematic" prob="0.3" count="1"  />
+			<item name="foodMeatStewSchematic" prob="0.3" count="1"  />
+			<item name="foodShamChowderSchematic" prob="0.3" count="1"  />
+			<item name="foodSteakAndPotatoSchematic" prob="0.3" count="1"  />
+			<item name="foodVegetableStewSchematic" prob="0.3" count="1"  />
+		</lootgroup>
+		
+		<lootgroup name="dlo_shamway" >
+			<item group="dlo_allcannedfood" prob="0.5" count="1" />
+			<item name="drinkCanEmpty" count="1,3" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_shamwaycrate" >
+			<item group="dlo_allcannedfood" count="1,2" />
+			<item group="dlo_foodrecipes" prob="0.5" count="1" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_foodpiles" >
+			<item group="dlo_allcannedfood" count="1,2" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_shamwaysafe" >
+			<item group="dlo_foodrecipes" count="1" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_beer" >
+			<item name="drinkJarBeer" count="1,3" />
+			<item name="drinkJarEmpty" count="1,3" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_fridges" >
+			<item group="dlo_allcookedfood" count="1,3" />
+			<item group="dlo_ingredients" count="1,3" />
+			<item group="dlo_drinks" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allmedicalitems" >
+			<item name="medicalAloeCream" prob="0.3" count="1" />
+			<item name="medicalBandage" prob="0.3" count="1" />
+			<item name="medicalFirstAidBandage" prob="0.3" count="1" />
+			<item name="medicalFirstAidKit" prob="0.3" count="1" />
+			<item name="medicalSplint" prob="0.3" count="1" />
+			<item name="medicalPlasterCast" prob="0.3" count="1" />
+			<item name="medicalBloodBag" prob="0.3" count="1" />
+			<item name="drugVitamins" prob="0.3" count="1" />
+			<item name="drugPainkillers" prob="0.3" count="1" />
+			<item name="drugHerbalAntibiotics" prob="0.3" count="1" />
+			<item name="drugAntibiotics" prob="0.3" count="1" />
+			<item name="drugSteroids" prob="0.3" count="1" />
+			<item name="drugHealthBar" prob="0.3" count="1" />
+			<item name="resourceSewingKit" prob="0.3" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_alldrugs" >
+			<item name="drugSugarButts" prob="0.3" count="1" />
+			<item name="drugSkullCrushers" prob="0.3" count="1" />
+			<item name="drugRockBusters" prob="0.3" count="1" />
+			<item name="drugOhShitzDrops" prob="0.3" count="1" />
+			<item name="drugNerdTats" prob="0.3" count="1" />
+			<item name="drugJailBreakers" prob="0.3" count="1" />
+			<item name="drugHealthBar" prob="0.3" count="1" />
+			<item name="drugHackers" prob="0.3" count="1" />
+			<item name="drugEyeKandy" prob="0.3" count="1" />
+			<item name="drugCovertCats" prob="0.3" count="1" />
+			<item name="drugAtomJunkies" prob="0.3" count="1" />
+			<item name="drugRecog" prob="0.25" count="1" />
+		</lootgroup>
+				
+		 <lootgroup name="dlo_seeds" >
+			<item name="plantedPotato1" prob="0.5" count="1" />
+			<item name="plantedCoffee1" prob="0.5" count="1" />
+			<item name="plantedCorn1" prob="0.5" count="1" />
+			<item name="plantedBlueberry1" prob="0.5" count="1" />
+			<item name="plantedCotton1" prob="0.5" count="1" />
+			<item name="plantedGoldenrod1" prob="0.5" count="1" />
+			<item name="plantedAloe1" prob="0.5" count="1" />
+			<item name="plantedMushroom1" prob="0.5" count="1" />
+			<item name="plantedYucca1" prob="0.5" count="1" />
+			<item name="plantedHop1" prob="0.5" count="1" />
+			<item name="plantedChrysanthemum1" prob="0.5" count="1" />
+			<item name="plantedPumpkin1" prob="0.5" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allmedicalschematics" >
+			<item name="drugAntibioticsSchematic" prob="0.3" count="1" />
+			<item name="medicalFirstAidKitSchematic" prob="0.3" count="1" />
+			<item name="medicalPlasterCastSchematic" prob="0.3" count="1" />
+			<item name="drugHerbalAntibioticsSchematic" prob="0.3" count="1" />
+			<item name="medicalFirstAidBandageSchematic" prob="0.3" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allperkbooks" >
+			<item name="bookRangersArrowRecovery" prob="0.3" count="1"  />
+			<item name="bookRangersCripplingShot" prob="0.3" count="1"  />
+			<item name="bookRangersKnockdown" prob="0.3" count="1"  />
+			<item name="bookRangersFlamingArrows" prob="0.3" count="1"  />
+			<item name="bookRangersAPAmmo" prob="0.3" count="1"  />
+			<item name="bookRangersExplodingBolts" prob="0.3" count="1"  />
+			<item name="bookRangersForestGuide" prob="0.3" count="1"  />
+			<item name="bookSpearHunter1Damage" prob="0.3" count="1"  />
+			<item name="bookSpearHunter2Maintenance" prob="0.3" count="1"  />
+			<item name="bookSpearHunter3SteelSpears" prob="0.3" count="1"  />
+			<item name="bookSpearHunter4StrongArm" prob="0.3" count="1"  />
+			<item name="bookSpearHunter5RapidStrike" prob="0.3" count="1"  />
+			<item name="bookSpearHunter6PuncturedLung" prob="0.3" count="1"  />
+			<item name="bookSpearHunter7QuickStrike" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalBears" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalCoyotes" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalDeer" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalMountainLions" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalVultures" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalWolves" prob="0.3" count="1"  />
+			<item name="bookHuntingJournalSelfDefense" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningLuckyStrike" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningDiamondTools" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningCoffee" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningBlackStrap" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningPallets" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningAvalanche" prob="0.3" count="1"  />
+			<item name="bookArtOfMiningLantern" prob="0.3" count="1"  />
+			<item name="bookBatterUpBaseballBats" prob="0.3" count="1"  />
+			<item name="bookBatterUpBigHits" prob="0.3" count="1"  />
+			<item name="bookBatterUpGear" prob="0.3" count="1"  />
+			<item name="bookBatterUpKnockdown" prob="0.3" count="1"  />
+			<item name="bookBatterUpSlowPitch" prob="0.3" count="1"  />
+			<item name="bookBatterUpMaintenance" prob="0.3" count="1"  />
+			<item name="bookBatterUpMetalChain" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadDesertWear" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadDusters" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadFootwear" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadLegwear" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadPockets" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadPufferCoats" prob="0.3" count="1"  />
+			<item name="bookNeedleAndThreadWinterWear" prob="0.3" count="1"  />
+			<item name="bookBarBrawling1BasicMoves" prob="0.3" count="1"  />
+			<item name="bookBarBrawling2DropABomb" prob="0.3" count="1"  />
+			<item name="bookBarBrawling3KillerInstinct" prob="0.3" count="1"  />
+			<item name="bookBarBrawling4FinishingMoves" prob="0.3" count="1"  />
+			<item name="bookBarBrawling5AdrenalineHealing" prob="0.3" count="1"  />
+			<item name="bookBarBrawling6RageMode" prob="0.3" count="1"  />
+			<item name="bookBarBrawling7BoozedUp" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresAcid" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresCloth" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresCoffins" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresDoors" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresHoney" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresSinks" prob="0.3" count="1"  />
+			<item name="bookWasteTreasuresWater" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatAdrenalineRush" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatCigar" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatRoomClearing" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatJumping" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatLandMines" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatLanding" prob="0.3" count="1"  />
+			<item name="bookUrbanCombatSneaking" prob="0.3" count="1"  />
+			<item name="bookNightStalkerArchery" prob="0.3" count="1"  />
+			<item name="bookNightStalkerBlades" prob="0.3" count="1"  />
+			<item name="bookNightStalkerSilentNight" prob="0.3" count="1"  />
+			<item name="bookNightStalkerSlumberParty" prob="0.3" count="1"  />
+			<item name="bookNightStalkerStealthDamage" prob="0.3" count="1"  />
+			<item name="bookNightStalkerThiefAdrenaline" prob="0.3" count="1"  />
+			<item name="bookNightStalkerTwilightThief" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacSpeed" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacAxes" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacEquipment" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacPrevention" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacHarvest" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacHeat" prob="0.3" count="1"  />
+			<item name="bookFiremansAlmanacMolotov" prob="0.3" count="1"  />
+			<item name="bookPistolPeteAPAmmo" prob="0.3" count="1"  />
+			<item name="bookPistolPeteDamage" prob="0.3" count="1"  />
+			<item name="bookPistolPeteHPAmmo" prob="0.3" count="1"  />
+			<item name="bookPistolPeteMaintenance" prob="0.3" count="1"  />
+			<item name="bookPistolPeteSteadyHand" prob="0.3" count="1"  />
+			<item name="bookPistolPeteSwissKnees" prob="0.3" count="1"  />
+			<item name="bookPistolPeteTakeAim" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterAmmunition" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterBooks" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterBrass" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterDukes" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterFood" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterLead" prob="0.3" count="1"  />
+			<item name="bookLuckyLooterMedical" prob="0.3" count="1"  />
+			<item name="bookEnforcerAPAmmo" prob="0.3" count="1"  />
+			<item name="bookEnforcerApparel" prob="0.3" count="1"  />
+			<item name="bookEnforcerCriminalPursuit" prob="0.3" count="1"  />
+			<item name="bookEnforcerHPAmmo" prob="0.3" count="1"  />
+			<item name="bookEnforcerDamage" prob="0.3" count="1"  />
+			<item name="bookEnforcerIntimidation" prob="0.3" count="1"  />
+			<item name="bookEnforcerPunks" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahBreachingSlugs" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahDamage" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahLimbShot" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahMaintenance" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahMagazine" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahPartyStarter" prob="0.3" count="1"  />
+			<item name="bookShotgunMessiahSlugs" prob="0.3" count="1"  />
+			<item name="bookGreatHeistAdrenalineFall" prob="0.3" count="1"  />
+			<item name="bookGreatHeistTimedCharge" prob="0.3" count="1"  />
+			<item name="bookGreatHeistClaimed" prob="0.3" count="1"  />
+			<item name="bookGreatHeistGems" prob="0.3" count="1"  />
+			<item name="bookGreatHeistMotionDetection" prob="0.3" count="1"  />
+			<item name="bookGreatHeistSafes" prob="0.3" count="1"  />
+			<item name="bookGreatHeistSprintSneak" prob="0.3" count="1"  />
+			<item name="bookSniperAPAmmo" prob="0.3" count="1"  />
+			<item name="bookSniperControlledBreathing" prob="0.3" count="1"  />
+			<item name="bookSniperCripplingShot" prob="0.3" count="1"  />
+			<item name="bookSniperDamage" prob="0.3" count="1"  />
+			<item name="bookSniperHeadShot" prob="0.3" count="1"  />
+			<item name="bookSniperReload" prob="0.3" count="1"  />
+			<item name="bookSniperHPAmmo" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsDamage" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsRagdoll" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsMaintenance" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsRecoil" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsDrumMag" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.3" count="1"  />
+			<item name="bookAutoWeaponsMachineGuns" prob="0.3" count="1"  />
+			<item name="bookTechJunkie1Damage" prob="0.3" count="1"  />
+			<item name="bookTechJunkie2Maintenance" prob="0.3" count="1"  />
+			<item name="bookTechJunkie3APAmmo" prob="0.3" count="1"  />
+			<item name="bookTechJunkie4Shells" prob="0.3" count="1"  />
+			<item name="bookTechJunkie5Repulsor" prob="0.3" count="1"  />
+			<item name="bookTechJunkie6BatonCharge" prob="0.3" count="1"  />
+			<item name="bookTechJunkie7Hydraulics" prob="0.3" count="1"  />
+		</lootgroup>
+		
+		<lootgroup name="dlo_allarmormodschematics" >
+			<item name="modArmorInsulatedLinerSchematic"  />
+			<item name="modArmorCoolingMeshSchematic"  />
+			<item name="modArmorImprovedFittingsSchematic"  />
+			<item name="modArmorCustomizedFittingsSchematic"  />
+			<item name="modArmorPlatingBasicSchematic"  />
+			<item name="modArmorPlatingReinforcedSchematic"  />
+			<item name="modArmorStoragePocketSchematic"  />
+			<item name="modArmorDoubleStoragePocketSchematic"  />
+			<item name="modArmorTripleStoragePocketSchematic"  />
+			<item name="modArmorMuffledConnectorsSchematic"  />
+			<item name="modArmorAdvancedMuffledConnectorsSchematic"  />
+			<item name="modArmorImpactBracingSchematic"  />
+			<item name="modArmorBandolierSchematic"  />
+			<item name="modArmorWaterPurifierSchematic"  />
+			<item name="modArmorHelmetLightSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allmeleeschematics" >
+			<item name="meleeWpnClubT1BaseballBatSchematic"  />
+			<item name="meleeWpnSledgeT1IronSledgehammerSchematic"  />
+			<item name="meleeWpnSledgeT3SteelSledgehammerSchematic"  />
+			<item name="meleeWpnBladeT1HuntingKnifeSchematic"  />
+			<item name="meleeWpnBladeT3MacheteSchematic"  />
+			<item name="meleeWpnBatonT2StunBatonSchematic"  />
+			<item name="meleeWpnSpearT1IronSpearSchematic"  />
+			<item name="meleeWpnKnucklesT1IronKnucklesSchematic"  />
+			<item name="meleeWpnKnucklesT3SteelKnucklesSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_alltoolschematics" >
+			<item name="meleeToolSalvageT1WrenchSchematic"  />
+			<item name="meleeToolSalvageT2RatchetSchematic"  />
+			<item name="meleeToolSalvageT3ImpactDriverSchematic"  />
+			<item name="meleeToolPickT3AugerSchematic"  />
+			<item name="meleeToolAxeT3ChainsawSchematic"  />
+			<item name="meleeToolRepairT3NailgunSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_alltools" >
+			<item name="meleeToolSalvageT1Wrench" prob="0.3"  />
+			<item name="meleeToolSalvageT2Ratchet" prob="0.2"  />
+			<item name="meleeToolSalvageT3ImpactDriver" prob="0.15"  />
+			<item name="meleeToolPickT3Auger" prob="0.15"  />
+			<item name="meleeToolAxeT3Chainsaw" prob="0.15"  />
+			<item name="meleeToolRepairT3Nailgun" prob="0.15"  />
+			<item name="meleeToolShovelT2SteelShovel"  prob="0.2" />
+			<item name="meleeToolShovelT1IronShovel" prob="0.3"  />
+			<item name="meleeToolPickT2SteelPickaxe" prob="0.2"  />
+			<item name="meleeToolAxeT2SteelAxe" prob="0.2"  />
+			<item name="meleeToolAxeT1IronFireaxe" prob="0.3"  />
+			<item name="meleeToolRepairT1ClawHammer" prob="0.3"  />
+			<item name="meleeToolPickT1IronPickaxe" prob="0.3"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_alltoolmodschematics" >
+			<item name="modFuelTankSmallSchematic"  />
+			<item name="modFuelTankLargeSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_alldroneschematics" >
+			<item name="modRoboticDroneCargoModSchematic"  />
+			<item name="modRoboticDroneMedicModSchematic"  />
+			<item name="modRoboticDroneHeadlampModSchematic"  />
+			<item name="modRoboticDroneArmorPlatingModSchematic"  />
+			<item name="modRoboticDroneMoraleBoosterModSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_alltooladdonschematics" >
+			<item name="toolBellowsSchematic"  />
+			<item name="toolForgeCrucibleSchematic"  />
+			<item name="toolAnvilSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allcraftstatschematics" >
+			<item name="cementMixerSchematic"  />
+			<item name="workbenchSchematic"  />
+			<item name="forgeSchematic"  />
+			<item name="chemistryStationSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allelectricschematics" >
+			<item name="generatorbankSchematic"  />
+			<item name="pressureplateSchematic"  />
+			<item name="poweredDoorsSchematic"  />
+			<item name="bladeTrapSchematic"  />
+			<item name="dartTrapSchematic"  />
+			<item name="shotgunTurretSchematic"  />
+			<item name="autoTurretSchematic"  />
+			<item name="electricfencepostSchematic"  />
+			<item name="motionsensorSchematic"  />
+			<item name="speakerSchematic"  />
+			<item name="spotlightPlayerSchematic"  />
+			<item name="switchSchematic"  />
+			<item name="batterybankSchematic"  />
+			<item name="electrictimerrelaySchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allgunschematics" >
+			<item name="gunHandgunT1PistolSchematic"  />
+			<item name="gunHandgunT2Magnum44Schematic"  />
+			<item name="gunHandgunT3DesertVultureSchematic"  />
+			<item name="gunShotgunT1DoubleBarrelSchematic"  />
+			<item name="gunShotgunT2PumpShotgunSchematic"  />
+			<item name="gunShotgunT3AutoShotgunSchematic"  />
+			<item name="gunHandgunT3SMG5Schematic"  />
+			<item name="gunMGT1AK47Schematic"  />
+			<item name="gunMGT2TacticalARSchematic"  />
+			<item name="gunMGT3M60Schematic"  />
+			<item name="gunRifleT1HuntingRifleSchematic"  />
+			<item name="gunRifleT2LeverActionRifleSchematic"  />
+			<item name="gunRifleT3SniperRifleSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allbowsschematics" >
+			<item name="gunBowT1WoodenBowSchematic"  />
+			<item name="gunBowT3CompoundBowSchematic"  />
+			<item name="gunBowT1IronCrossbowSchematic"  />
+			<item name="gunBowT3CompoundCrossbowSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allthrownschematics" >
+			<item name="thrownAmmoPipeBombSchematic"  />
+			<item name="thrownGrenadeContactSchematic"  />
+			<item name="thrownGrenadeSchematic"  />
+			<item name="thrownDynamiteSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_vehiclepartschematics" >
+			<item name="vehicleBicycleChassisSchematic"  />
+			<item name="vehicleBicycleHandlebarsSchematic"  />
+			<item name="vehicleMinibikeChassisSchematic"  />
+			<item name="vehicleMinibikeHandlebarsSchematic"  />
+			<item name="vehicleMotorcycleChassisSchematic"  />
+			<item name="vehicleMotorcycleHandlebarsSchematic"  />
+			<item name="vehicle4x4TruckChassisSchematic"  />
+			<item name="vehicle4x4TruckAccessoriesSchematic"  />
+			<item name="vehicleGyroCopterChassisSchematic"  />
+			<item name="vehicleGyroCopterAccessoriesSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allvehiclemodschematics" >
+			<item name="modVehicleFuelSaverSchematic"  />
+			<item name="modVehicleOffRoadHeadlightsSchematic"  />
+			<item name="modVehicleSuperChargerSchematic"  />
+			<item name="modVehicleExpandedSeatSchematic"  />
+			<item name="modVehicleReserveFuelTankSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allmeleemodschematics" >
+			<item name="modMeleeTemperedBladeSchematic"  />
+			<item name="modMeleeSerratedBladeSchematic"  />
+			<item name="modMeleeWeightedHeadSchematic"  />
+			<item name="modMeleeStructuralBraceSchematic"  />
+			<item name="modMeleeErgonomicGripSchematic"  />
+			<item name="modMeleeFortifyingGripSchematic"  />
+			<item name="modMeleeClubBarbedWireSchematic"  />
+			<item name="modMeleeClubMetalSpikesSchematic"  />
+			<item name="modMeleeGraveDiggerSchematic"  />
+			<item name="modMeleeBunkerBusterSchematic"  />
+			<item name="modMeleeIronBreakerSchematic"  />
+			<item name="modMeleeWoodSplitterSchematic"  />
+			<item name="modMeleeClubBurningShaftSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allgunmodschematics" >
+			<item name="modGunBarrelExtenderSchematic"  />
+			<item name="modGunMuzzleBrakeSchematic"  />
+			<item name="modGunSoundSuppressorSilencerSchematic"  />
+			<item name="modGunLaserSightSchematic"  />
+			<item name="modGunFlashlightSchematic"  />
+			<item name="modGunScopeSmallSchematic"  />
+			<item name="modGunScopeMediumSchematic"  />
+			<item name="modGunScopeLargeSchematic"  />
+			<item name="modGunReflexSightSchematic"  />
+			<item name="modGunTriggerGroupSemiSchematic"  />
+			<item name="modGunTriggerGroupBurst3Schematic"  />
+			<item name="modGunTriggerGroupAutomaticSchematic"  />
+			<item name="modGunBipodSchematic"  />
+			<item name="modGunForegripSchematic"  />
+			<item name="modGunRetractingStockSchematic"  />
+			<item name="modGunDuckbillSchematic"  />
+			<item name="modGunChokeSchematic"  />
+			<item name="modGunMagazineExtenderSchematic"  />
+			<item name="modShotgunSawedOffBarrelSchematic"  />
+			<item name="modGunCrippleEmSchematic"  />
+			<item name="modGunBowPolymerStringSchematic"  />
+			<item name="modGunBowArrowRestSchematic"  />
+			<item name="modGunMeleeTheHunterSchematic"  />
+			<item name="modGunMeleeRadRemoverSchematic"  />
+			<item name="modGunMeleeBlessedMetalSchematic"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allguns" >
+			<item name="gunHandgunT1Pistol" prob="0.3" count="1" mods="modGunSoundSuppressorSilencer" mod_chance="0.3" />
+			<item name="gunHandgunT3SMG5" prob="0.15" count="1" mods="modGunRetractingStock" mod_chance="0.3"  />
+			<item name="gunHandgunT2Magnum44" prob="0.2" count="1" />
+			<item name="gunHandgunT3DesertVulture" prob="0.15" count="1" mods="modGunLaserSight" mod_chance="0.3"  />
+			<item name="gunShotgunT1DoubleBarrel" prob="0.3" count="1"  />
+			<item name="gunShotgunT2PumpShotgun" prob="0.2" count="1" mods="modGunChoke" mod_chance="0.3"  />
+			<item name="gunShotgunT3AutoShotgun" prob="0.15" count="1" mods="modGunDuckbill" mod_chance="0.3"  />
+			<item name="gunRifleT1HuntingRifle" prob="0.3" count="1" mods="modGunScopeSmall" mod_chance="0.3"  />
+			<item name="gunRifleT2LeverActionRifle" prob="0.2" count="1" mods="modGunScopeMedium" mod_chance="0.3"  />
+			<item name="gunRifleT3SniperRifle" prob="0.15" count="1" mods="modGunScopeLarge" mod_chance="0.3"  />
+			<item name="gunMGT1AK47" prob="0.3" count="1" mods="modGunRetractingStock" mod_chance="0.3"  />
+			<item name="gunMGT2TacticalAR" prob="0.2" count="1" mods="modGunBarrelExtender" mod_chance="0.3"  />
+			<item name="gunMGT3M60" prob="0.15" count="1" mods="modGunReflexSight" mod_chance="0.3"  />
+			<item name="gunExplosivesT3RocketLauncher" prob="0.15" count="1"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allpipeguns" >
+			<item name="gunHandgunT0PipePistol" prob="0.3" count="1" />
+			<item name="gunShotgunT0PipeShotgun" prob="0.3" count="1" />
+			<item name="gunRifleT0PipeRifle" prob="0.3" count="1" />
+			<item name="gunMGT0PipeMachineGun" prob="0.3" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_smallwpbgs" loot_quality_template="QLTemplateT2"  >
+			<item name="gunHandgunT0PipePistol" prob="0.3" count="1" />
+			<item name="gunHandgunT1Pistol" prob="0.5" count="1" mods="modGunSoundSuppressorSilencer" mod_chance="0.3" />
+			<item name="gunHandgunT3SMG5" prob="0.2" count="1" mods="modGunSoundSuppressorSilencer" mod_chance="0.3" />
+			<item name="gunHandgunT2Magnum44" prob="0.2" count="1" />
+			<item name="ammo9mmBulletBall" count="12,36" />
+			<item name="ammo44MagnumBulletBall" count="6,12" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_bigwpbags" loot_quality_template="QLTemplateT2"  >
+			<item name="gunRifleT0PipeRifle" prob="0.3" count="1" />
+			<item name="gunRifleT1HuntingRifle" prob="0.3" count="1" mods="modGunScopeSmall" mod_chance="0.3" />
+			<item name="gunRifleT2LeverActionRifle" prob="0.3" count="1" mods="modGunScopeMedium" mod_chance="0.3" />
+			<item name="gunMGT1AK47" prob="0.3" count="1" mods="modGunMagazineExtender" mod_chance="0.3" />
+			<item name="gunMGT0PipeMachineGun" prob="0.3" count="1" />
+			<item name="ammo762mmBulletBall" count="12,24" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_bows" >
+			<item name="gunBowT1WoodenBow" prob="0.3" count="1" />
+			<item name="gunBowT3CompoundBow" prob="0.15" count="1" mods="modGunBowPolymerString" mod_chance="0.3" />
+			<item name="gunBowT1IronCrossbow" prob="0.3" count="1" />
+			<item name="gunBowT3CompoundCrossbow" prob="0.15" count="1" mods="modGunScopeMedium" mod_chance="0.3" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_standardgunammo" >
+			<item name="ammo762mmBulletBall" prob="0.3" count="12,24" />
+			<item name="ammoShotgunShell" prob="0.3" count="6,12" />
+			<item name="ammo44MagnumBulletBall" prob="0.3" count="6,12" />
+			<item name="ammo9mmBulletBall" prob="0.3" count="12,36" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_specialgunammo" >
+			<item name="ammo762mmBulletHP" prob="0.3" count="6" />
+			<item name="ammo762mmBulletAP" prob="0.3" count="6" />
+			<item name="ammoShotgunSlug" prob="0.3" count="3" />
+			<item name="ammoShotgunBreachingSlug" prob="0.3" count="3" />
+			<item name="ammo44MagnumBulletHP" prob="0.3" count="3" />
+			<item name="ammo44MagnumBulletAP" prob="0.3" count="3" />
+			<item name="ammo9mmBulletHP" prob="0.3" count="12" />
+			<item name="ammo9mmBulletAP" prob="0.3" count="12" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_standardarrows" >
+			<item name="ammoCrossbowBoltIron" prob="0.5" count="3,6" />
+			<item name="ammoArrowIron" prob="0.5" count="3,6" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_specialarrows" >
+			<item name="ammoCrossbowBoltSteelAP" prob="0.3" count="2" />
+			<item name="ammoCrossbowBoltFlaming" prob="0.3" count="2" />
+			<item name="ammoCrossbowBoltExploding" prob="0.3" count="2" />
+			<item name="ammoArrowSteelAP" prob="0.3" count="2" />
+			<item name="ammoArrowFlaming" prob="0.3" count="2" />
+			<item name="ammoArrowExploding" prob="0.3" count="2" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allbookshelves" >
+			<item group="dlo_allperkbooks" prob="0.5" count="1" />
+			<item name="resourcePaper" prob="0.5" count="1,10"  />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allshotguncrates" >
+			<item group="dlo_allguns" count="2" />
+			<item group="dlo_standardgunammo" count="3" />
+			<item group="dlo_specialgunammo" prob="0.5" count="1" />
+			<item group="dlo_allgunschematics" prob="0.1" count="1" />
+			<item group="dlo_allgunmodschematics" prob="0.1" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_gunsafes" >
+			<item group="dlo_allguns" count="2" />
+			<item group="dlo_standardgunammo" count="2" />
+			<item group="dlo_specialgunammo" prob="0.3" count="1" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_ammocrates" >
+			<item group="dlo_standardgunammo" count="6" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allbookcrates" >
+			<item group="dlo_allperkbooks" count="2" />
+		</lootgroup>
+		
+		 <lootgroup name="dlo_allmedcrates" >
+			<item group="dlo_allmedicalschematics" prob="0.5" count="1" />
+			<item group="dlo_allmedicalitems" count="3" />
+		</lootgroup>  	 
+		
+		<lootgroup name="dlo_allmedcabs" >
+			<item group="dlo_allmedicalitems" count="1,2" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_toilets" >
+			<item name="drinkJarRiverWater" count="1,2" />
+			<item group="dlo_allpipeguns" prob="0.1" count="1" loot_quality_template="dlo_evendist" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_savagecountrycrates" >
+			<item group="dlo_bows" count="1" loot_quality_template="dlo_qualT3T4only" />
+			<item group="dlo_standardarrows" count="4" />
+			<item group="dlo_specialarrows" prob="0.3" count="1" />
+			<item group="dlo_allbowsschematics" prob="0.1" count="1" />
+			<item group="dlo_allarmormodschematics" prob="0.3" count="1" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_hiddenstash" >
+			<item group="dlo_bows" prob="0.3" count="1" loot_quality_template="dlo_evendist" />
+			<item group="dlo_allguns" prob="0.3" count="1" loot_quality_template="dlo_evendist" />
+			<item group="dlo_allpipeguns" prob="0.5" count="1" loot_quality_template="dlo_qualT2T3only" />
+			<item group="dlo_standardarrows" count="1" />
+			<item group="dlo_standardgunammo" count="3" />
+			<item group="dlo_specialarrows" prob="0.3" count="1" />
+			<item group="dlo_specialgunammo" prob="0.3" count="1" />
+			<item group="dlo_allmedcabs" count="1" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_valuables" >
+			<item name="resourceSilverNugget" prob="0.75" />
+			<item name="resourceGoldNugget" prob="0.5" />
+			<item name="resourceRawDiamond" prob="0.2" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_smallsafes" >
+			<item group="dlo_valuables" count="4" />
+			<item name="oldCash" count="500,5000" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_sinks" >
+			<item name="resourceMetalPipe" prob="0.7" count="1,2" />
+			<item name="resourceAcid" prob="0.3" count="1" />
+			<item name="resourceScrapBrass" prob="0.5" count="5,10" />
+			<item name="drinkJarRiverWater" count="1,2" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_ovens" >
+			<item name="resourceSpring" prob="0.7" count="1,2" />
+			<item name="toolCookingGrill" prob="0.3" count="1" />
+			<item name="toolCookingPot" prob="0.3" count="1" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_desks" >
+			<item group="dlo_allgunmodschematics" prob="0.2" count="1" />
+			<item group="dlo_allmeleemodschematics" prob="0.2" count="1" />
+			<item group="dlo_allelectricschematics" prob="0.2" count="1" />
+			<item name="oldCash" count="5,50" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_filecab" >
+			<item group="dlo_allarmormodschematics" prob="0.15" count="1" />
+			<item group="dlo_allmeleeschematics" prob="0.15" count="1" />
+			<item group="dlo_alltoolschematics" prob="0.15" count="1" />
+			<item group="dlo_alltoolmodschematics" prob="0.15" count="1" />
+			<item group="dlo_alldroneschematics" prob="0.15" count="1" />
+			<item group="dlo_alltooladdonschematics" prob="0.15" count="1" />
+			<item group="dlo_allelectricschematics" prob="0.15" count="1" />
+			<item group="dlo_allgunschematics" prob="0.15" count="1" />
+			<item group="dlo_allbowsschematics" prob="0.15" count="1" />
+			<item group="dlo_allthrownschematics" prob="0.15" count="1" />
+			<item group="dlo_allvehiclemodschematics" prob="0.15" count="1" />
+			<item group="dlo_allmeleemodschematics" prob="0.15" count="1" />
+			<item group="dlo_allgunmodschematics" prob="0.15" count="1" />
+			<item name="oldCash" count="5,50" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_purses" >
+			<item group="dlo_valuables" count="1" />
+			<item name="oldCash" count="5,50" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_wscrates" >
+			<item group="dlo_alltoolschematics" prob="0.15" count="1" />
+			<item group="dlo_alltoolmodschematics" prob="0.3" count="1" />
+			<item group="dlo_alltooladdonschematics" prob="0.15" count="1" />
+			<item group="dlo_alltools" count="1,2" loot_quality_template="dlo_evendist" />
+			<item name="resourceRepairKit" count="1,3" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_chempiles" >
+			<item group="dlo_allmedicalitems" count="1,2" />
+			<item group="dlo_alldrugs" count="1" />
+			<item name="toolBeaker" prob="0.1" count="1" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_armytrucks" >
+			<item group="dlo_allcannedfood" count="3,5" />
+			<item group="dlo_allmedicalitems" count="3" />
+			<item group="dlo_allguns" count="1" loot_quality_template="dlo_evendist" />
+			<item group="dlo_standardgunammo" count="6" />
+			<item name="drinkJarPureMineralWater" count="1,3" />
+		</lootgroup>
+		
+		<lootgroup name="dlo_poilootchests" >
+			<item group="dlo_allmeleemodschematics" prob="0.15" count="1" />
+			<item group="dlo_allgunmodschematics" prob="0.15" count="1" />
+			<item group="dlo_allguns" prob="0.5" count="1" />
+			<item group="dlo_bows" prob="0.5" count="1" />
+			<item group="dlo_specialgunammo" prob="0.3"  count="1"/>
+			<item group="dlo_valuables" prob="0.5" count="1" />
+			<item group="dlo_allmedcabs" count="1" />
+			<item group="dlo_allperkbooks" count="1" />
+			<item group="dlo_standardgunammo" count="1" />
+			<item group="dlo_standardarrows" count="1" />
+			<item name="oldCash" count="100,1000" />
+			<item name="foodBlueberryPie" count="1" />
+		</lootgroup>
+	</insertAfter>
+		
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesRare']">
+		<lootgroup name="dlo_cars" >
+			<item group="schematicsVehiclesCommon" prob="0.2" count="1" />
+			<item group="dlo_alltools" prob="0.3" count="1" loot_quality_template="dlo_evendist" />
+			<item group="dlo_smallwpbgs" prob="0.2" count="1" loot_quality_template="dlo_evendist" />
+			<item name="smallEngine" prob="0.25" count="1"  />
+			<item name="vehicleWheels" prob="0.2" count="1"  />
+			<item name="carBattery" prob="0.3" count="1"  />
+			<item name="resourceOil" prob="0.3" count="1" />
+			<item name="drinkJarRiverWater" count="1,2" />
+			<item name="resourceAcid" prob="0.1" count="1" />
+			<item name="meleeToolFlashlight02" prob="0.15" count="1" />
+			<item name="ammoGasCan" count="20,200" />
+		</lootgroup>
+
+		<lootgroup name="dlo_passngascrate" >
+			<item group="dlo_vehiclepartschematics" prob="0.3" count="1" />
+			<item group="dlo_allvehiclemodschematics" prob="0.3" count="1" />
+			<item group="schematicsVehiclesCommon" prob="0.3" count="1" />
+			<item name="smallEngine" prob="0.3" count="1"  />
+			<item name="vehicleWheels" prob="0.3" count="1"  />
+			<item name="carBattery" prob="0.3" count="1" loot_quality_template="dlo_evendist"  />
+			<item name="resourceOil" prob="0.3" count="1" />
+		</lootgroup>
+	</insertAfter>
+	
+<set xpath="/lootcontainers/lootcontainer[@id='6']/item/@group">dlo_smallsafes</set>
+<set xpath="/lootcontainers/lootcontainer[@id='7']/item/@group">dlo_gunsafes</set>
+<set xpath="/lootcontainers/lootcontainer[@id='7']/@loot_quality_template">QLTemplateT2</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='7']" name="count">2</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='8']/item/@group">dlo_sinks</set>
+<set xpath="/lootcontainers/lootcontainer[@id='11']/item/@group">dlo_ovens</set>
+<set xpath="/lootcontainers/lootcontainer[@id='17']/item/@group">dlo_shamway</set>
+<set xpath="/lootcontainers/lootcontainer[@id='19']/item/@group">dlo_cars</set>
+<set xpath="/lootcontainers/lootcontainer[@id='23']/item/@group">dlo_desks</set>
+<set xpath="/lootcontainers/lootcontainer[@id='24']/item/@group">dlo_desks</set>
+<set xpath="/lootcontainers/lootcontainer[@id='38']/item/@group">dlo_shamwaysafe</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='38']" name="count">2</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='40']/item/@group">dlo_ammocrates</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='40']" name="count">3</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='44']/item/@group">dlo_filecab</set>
+<set xpath="/lootcontainers/lootcontainer[@id='45']/item/@group">dlo_fridges</set>
+<set xpath="/lootcontainers/lootcontainer[@id='47']/item/@group">dlo_fridges</set>
+<set xpath="/lootcontainers/lootcontainer[@id='48']/item/@group">dlo_purses</set>
+<set xpath="/lootcontainers/lootcontainer[@id='48']/@count">2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='49']/item/@group">dlo_allbookshelves</set>
+<set xpath="/lootcontainers/lootcontainer[@id='50']/item/@group">dlo_allshotguncrates</set>
+<set xpath="/lootcontainers/lootcontainer[@id='50']/@count">2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='51']/item/@group">dlo_allmedcrates</set>
+<set xpath="/lootcontainers/lootcontainer[@id='51']/@count">2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='52']/item/@group">dlo_beer</set>
+<set xpath="/lootcontainers/lootcontainer[@id='53']/item/@group">dlo_wscrates</set>
+<set xpath="/lootcontainers/lootcontainer[@id='54']/item/@group">dlo_shamway</set>
+<set xpath="/lootcontainers/lootcontainer[@id='58']/item/@group">dlo_shamway</set>
+<set xpath="/lootcontainers/lootcontainer[@id='59']/item/@group">dlo_shamwaycrate</set>
+<set xpath="/lootcontainers/lootcontainer[@id='59']/@count">2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='65']/item/@group">dlo_toilets</set>
+<set xpath="/lootcontainers/lootcontainer[@id='83']/item/@group">dlo_armytrucks</set>
+<set xpath="/lootcontainers/lootcontainer[@id='83']/@count">3</set>
+<set xpath="/lootcontainers/lootcontainer[@id='86']/item/@group">dlo_shamway</set>
+<set xpath="/lootcontainers/lootcontainer[@id='87']/item/@group">dlo_savagecountrycrates</set>
+<set xpath="/lootcontainers/lootcontainer[@id='87']/@count">3</set>
+<set xpath="/lootcontainers/lootcontainer[@id='89']/item/@group">dlo_allbookcrates</set>
+<set xpath="/lootcontainers/lootcontainer[@id='90']/item/@group">dlo_passngascrate</set>
+<set xpath="/lootcontainers/lootcontainer[@id='90']/@count">3</set>
+<set xpath="/lootcontainers/lootcontainer[@id='95']/item/@group">dlo_hiddenstash</set>
+<set xpath="/lootcontainers/lootcontainer[@id='95']/@count">3</set>
+<remove xpath="/lootcontainers/lootcontainer[@id='99']/item[@name='drinkJarRiverWater']" />
+<set xpath="/lootcontainers/lootcontainer[@id='100']/item/@group">dlo_smallwpbgs</set>
+<set xpath="/lootcontainers/lootcontainer[@id='101']/item/@group">dlo_bigwpbags</set>
+<set xpath="/lootcontainers/lootcontainer[@id='106']/item/@group">dlo_allmedcabs</set>
+<set xpath="/lootcontainers/lootcontainer[@id='107']/item/@group">dlo_allmedcabs</set>
+<set xpath="/lootcontainers/lootcontainer[@id='111']/item/@group">dlo_foodpiles</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='111']" name="count">1</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='112']/item/@group">dlo_foodpiles</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='112']" name="count">2</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='113']/item/@group">dlo_foodpiles</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='113']" name="count">3</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='114']/item/@group">dlo_allmedcabs</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='114']" name="count">1</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='115']/item/@group">dlo_allmedcabs</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='115']" name="count">2</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='116']/item/@group">dlo_allmedcabs</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='116']" name="count">3</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='124']/item/@group">dlo_alltools</set>
+<set xpath="/lootcontainers/lootcontainer[@id='125']/item/@group">dlo_alltools</set>
+<set xpath="/lootcontainers/lootcontainer[@id='127']/item/@group">dlo_seeds</set>
+<set xpath="/lootcontainers/lootcontainer[@id='127']/@count">2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='128']/item/@group">dlo_fridges</set>
+<set xpath="/lootcontainers/lootcontainer[@id='129']/item/@group">dlo_drinks</set>
+<set xpath="/lootcontainers/lootcontainer[@id='129']/@count">1,3</set>
+<set xpath="/lootcontainers/lootcontainer[@id='131']/item/@group">dlo_allmedcabs</set>
+<set xpath="/lootcontainers/lootcontainer[@id='131']/@count">1,2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='135']/item/@group">dlo_allbookshelves</set>
+<set xpath="/lootcontainers/lootcontainer[@id='136']/item/@group">dlo_allbookshelves</set>
+<set xpath="/lootcontainers/lootcontainer[@id='138']/item/@group">dlo_allguns</set>
+<set xpath="/lootcontainers/lootcontainer[@id='144']/item/@group">dlo_wscrates</set>
+<set xpath="/lootcontainers/lootcontainer[@id='145']/item/@group">dlo_allmedcabs</set>
+<set xpath="/lootcontainers/lootcontainer[@id='149']/@count">3</set>
+<set xpath="/lootcontainers/lootcontainer[@id='149']/@loot_quality_template">dlo_qualT1T2only</set>
+<set xpath="/lootcontainers/lootcontainer[@id='149']/item/@group">dlo_poilootchests</set>
+<set xpath="/lootcontainers/lootcontainer[@id='150']/@count">4</set>
+<set xpath="/lootcontainers/lootcontainer[@id='150']/@loot_quality_template">dlo_qualT2T3only</set>
+<set xpath="/lootcontainers/lootcontainer[@id='150']/item/@group">dlo_poilootchests</set>
+<set xpath="/lootcontainers/lootcontainer[@id='151']/@count">4</set>
+<set xpath="/lootcontainers/lootcontainer[@id='151']/@loot_quality_template">dlo_qualT3T4only</set>
+<set xpath="/lootcontainers/lootcontainer[@id='151']/item/@group">dlo_poilootchests</set>
+<set xpath="/lootcontainers/lootcontainer[@id='152']/@count">5</set>
+<set xpath="/lootcontainers/lootcontainer[@id='152']/@loot_quality_template">dlo_qualT4T5only</set>
+<set xpath="/lootcontainers/lootcontainer[@id='152']/item/@group">dlo_poilootchests</set>
+<set xpath="/lootcontainers/lootcontainer[@id='153']/@count">5</set>
+<set xpath="/lootcontainers/lootcontainer[@id='153']/@loot_quality_template">dlo_qualT4T5T6only</set>
+<set xpath="/lootcontainers/lootcontainer[@id='153']/item/@group">dlo_poilootchests</set>
+<set xpath="/lootcontainers/lootcontainer[@id='154']/item/@group">dlo_chempiles</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='154']" name="count">2</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='155']/item/@group">dlo_chempiles</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='155']" name="count">3</setattribute>
+<set xpath="/lootcontainers/lootcontainer[@id='156']/item/@group">dlo_chempiles</set>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='156']" name="count">4</setattribute>
+
+</configs>

@@ -1,0 +1,17 @@
+<Less_Punishing_Demolisher_Explosions>
+
+<!-- zombieDemolition ststs -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Explosion.RadiusBlocks']/@value">2</set> <!-- C4 explosion radius for block damage; original value 5 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Explosion.RadiusEntities']/@value">2</set> <!-- C4 explosion radius for entity damage; original value 6 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Explosion.BlockDamage']/@value">500</set> <!-- C4 explosion block damage; original value 5000 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='Explosion.EntityDamage']/@value">80</set> <!-- C4 explosion block damage; original value 800 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='ExplodeDelay']/@value">10</set> <!-- time delay before C4 explodes; original value 2 -->
+<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='StompsSpikes']/@value">false</set> <!-- demolisher can stomp spike traps; true/false -->
+
+<!-- zombieFatCop ststs -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='Explosion.RadiusBlocks']/@value">2</set> <!-- low health explosion radius for block damage; original value 5 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='Explosion.RadiusEntities']/@value">2</set> <!-- low health explosion radius for entity damage; original value 6 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='Explosion.BlockDamage']/@value">50</set> <!-- low health explosion block damage; original value 500 -->
+<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='Explosion.EntityDamage']/@value">15</set> <!-- low health explosion block entity; original value 150 -->
+
+</Less_Punishing_Demolisher_Explosions>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+<append xpath="/entity_classes" >
+<entity_class name="lczPackStandard">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackStandard"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackPartyGirl">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackPartyGirl"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackNurse">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackNurse"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackBusiness">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackBusiness"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackBurnt">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackBurnt"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackMech">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackMech"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackLabrat">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackLabrat"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackWorker">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackWorker"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackBiker">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackBiker"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackLumber">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackLumber"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackFatFem">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackFatFem"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackHazmat">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackHazmat"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackFatCop">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackFatCop"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackSoldier">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackSoldier"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackWight">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackWight"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackScreamer">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackScreamer"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackDemo">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackDemo"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackThug">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackThug"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="lczPackCrawler">	
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackCrawler"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+</append>
+
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='LootDropProb']/@value" >0.05</set>
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='LootDropEntityClass']/@value" >lczPackStandard</set>
+<set xpath="/entity_classes/entity_class[contains(@name,'zombie')]/property[@name='LootDropProb']/@value" >0.05</set>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombiePartyGirl')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackPartyGirl"/>
+</insertBefore>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieNurse')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackNurse"/>
+</insertBefore>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieBusinessMan')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackBusiness"/>
+</insertBefore>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieBurnt')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackBurnt"/>
+</insertBefore>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieJanitor')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackMech"/>
+</insertBefore>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieLab')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackLabrat"/>
+</insertBefore>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieUtilityWorker')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackWorker"/>
+</insertBefore>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombieBiker')]/property[@name='LootDropEntityClass']/@value" >lczPackBiker</set>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombieLumberjack')]/property[@name='LootDropEntityClass']/@value" >lczPackLumber</set>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombieFemaleFat')]/property[@name='LootDropEntityClass']/@value" >lczPackFatFem</set>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombieFatHawaiian')]/property[@name='LootDropEntityClass']/@value" >lczPackFatFem</set>
+
+<append xpath="/entity_classes/entity_class[contains(@name,'zombieMaleHazmat')]" >
+<property name="LootDropEntityClass" value="lczPackHazmat"/>
+</append>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombieFatCop')]/property[@name='LootDropEntityClass']/@value" >lczPackFatCop</set>
+
+<remove xpath="/entity_classes/entity_class[contains(@name,'zombieSkateboarder')]/property[@name='LootDropEntityClass']" />
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieSkateboarder')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackThug"/>
+</insertBefore>
+
+<remove xpath="/entity_classes/entity_class[contains(@name,'zombieSoldier')]/property[@name='LootDropEntityClass']" />
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieSoldier')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackSoldier"/>
+</insertBefore>
+
+<remove xpath="/entity_classes/entity_class[contains(@name,'zombieWight')]/property[@name='LootDropEntityClass']" />
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieWight')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackWight"/>
+</insertBefore>
+
+<remove xpath="/entity_classes/entity_class[contains(@name,'zombieScreamer')]/property[@name='LootDropEntityClass']" />
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieScreamer')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackScreamer"/>
+</insertBefore>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'zombieDemolition')]/property[@name='LootDropEntityClass']/@value" >lczPackDemo</set>
+
+<insertBefore xpath="/entity_classes/entity_class[contains(@name,'zombieSteveCrawler')]/effect_group[@name='Base Effects']" >
+<property name="LootDropEntityClass" value="lczPackCrawler"/>
+</insertBefore>
+</configs>

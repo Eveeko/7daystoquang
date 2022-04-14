@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+<set xpath="/item_modifiers/item_modifier[@name='modVehicleFuelSaver']/effect_group/passive_effect[@name='VehicleFuelUsePer']/@value" >0.3</set>
+<set xpath="/item_modifiers/item_modifier[@name='modVehicleSuperCharger']/effect_group/passive_effect[@name='VehicleVelocityMaxPer']/@value" >1.2</set>
+<set xpath="/item_modifiers/item_modifier[@name='modVehicleSuperCharger']/effect_group/passive_effect[@name='VehicleVelocityMaxTurboPer']/@value" >1.25</set>
+</configs>

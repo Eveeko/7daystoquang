@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+<set xpath="//window[@name='windowQuestTurnInRewards']/@height" >605</set>
+<set xpath="//window[@name='windowQuestTurnInRewards']/rect[@name='content']/sprite/@height" >568</set>
+<set xpath="//window[@name='windowQuestTurnInRewards']/rect[@name='rectOptions']/grid/@rows" >8</set>
+<append xpath="//window[@name='windowQuestTurnInRewards']/rect[@name='rectOptions']/grid[@name='gridOptions']" >
+<quest_turnin_entry pos="0,-242" />
+<quest_turnin_entry pos="0,-292" />
+<quest_turnin_entry pos="0,-342" />
+</append>
+<set xpath="//window[@name='windowQuestTurnInRewards']/rect[@name='rectAccept']/@pos" >0,-540</set>
+</configs>

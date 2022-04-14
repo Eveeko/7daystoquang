@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<set xpath="/traders/trader_info[@id='4']/@min_inventory" >10</set>
+	<set xpath="/traders/trader_info[@id='4']/@max_inventory" >15</set>
+	
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='foodVending']/item" />
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodVending']" >
+		<item name="drinkJarBoiledWater" prob="0.5" count="1"  />
+		<item name="drinkJarPureMineralWater" prob="0.5" count="1"  />
+		<item name="drinkJarYuccaJuice" prob="0.5" count="1"  />
+		<item name="drinkJarGoldenRodTea" prob="0.5" count="1"  />
+		<item name="drinkJarRedTea" prob="0.5" count="1"  />
+		<item name="drinkCanMegaCrush" prob="0.5" count="1"  />
+		<item name="drinkJarCoffee" prob="0.5" count="1"  />
+		<item name="drinkJarBeer" prob="0.5" count="1"  />
+		<item name="foodCanBeef" prob="0.5" count="1"  />
+		<item name="foodCanChicken" prob="0.5" count="1"  />
+		<item name="foodCanLamb" prob="0.5" count="1"  />
+		<item name="foodCanCatfood" prob="0.5" count="1"  />
+		<item name="foodCanDogfood" prob="0.5" count="1"  />
+		<item name="foodCanChili" prob="0.5" count="1"  />
+		<item name="foodCanTuna" prob="0.5" count="1"  />
+		<item name="foodCanSham" prob="0.5" count="1"  />
+		<item name="foodCanPasta" prob="0.5" count="1"  />
+		<item name="foodCanSalmon" prob="0.5" count="1"  />
+		<item name="foodCanMiso" prob="0.5" count="1"  />
+		<item name="foodCanPeas" prob="0.5" count="1"  />
+		<item name="foodCanPears" prob="0.5" count="1"  />
+		<item name="foodCanSoup" prob="0.5" count="1"  />
+		<item name="foodCanStock" prob="0.5" count="1"  />
+		<item name="drugSugarButts" prob="0.5" count="1" />
+		<item name="drugSkullCrushers" prob="0.5" count="1" />
+		<item name="drugRockBusters" prob="0.5" count="1" />
+		<item name="drugOhShitzDrops" prob="0.5" count="1" />
+		<item name="drugNerdTats" prob="0.5" count="1" />
+		<item name="drugJailBreakers" prob="0.5" count="1" />
+		<item name="drugHealthBar" prob="0.5" count="1" />
+		<item name="drugHackers" prob="0.5" count="1" />
+		<item name="drugEyeKandy" prob="0.5" count="1" />
+		<item name="drugCovertCats" prob="0.5" count="1" />
+		<item name="drugAtomJunkies" prob="0.5" count="1" />
+		<item name="drugRecog" prob="0.5" count="1" />
+		<item name="medicalBandage" prob="0.5" count="1" />
+		<item name="medicalFirstAidBandage" prob="0.5" count="1" />
+		<item name="medicalFirstAidKit" prob="0.5" count="1" />
+		<item name="medicalSplint" prob="0.5" count="1" />
+		<item name="drugVitamins" prob="0.5" count="1" />
+		<item name="drugPainkillers" prob="0.5" count="1" />
+		<item name="drugHerbalAntibiotics" prob="0.5" count="1" />
+		<item name="medicalAloeCream" prob="0.5" count="1" />
+	</append>
+	
+	<set xpath="/traders/trader_info[@id='4']/@min_items_swapped" >10</set>
+	<set xpath="/traders/trader_info[@id='4']/@max_items_swapped" >15</set>
+	<set xpath="/traders/trader_info[@id='4']/trader_items/@count" >15</set>
+	<remove xpath="/traders/trader_info[@id='4']/trader_items/item[@group='foodCandy']" />
+</configs>

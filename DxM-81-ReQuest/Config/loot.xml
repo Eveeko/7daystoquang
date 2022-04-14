@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCaskets']">
+<lootgroup name="req_mailbox" >
+	<item name="resourcePaper" count="1,5" />
+	<item group="booksAllScaled" prob="0.15" count="1" />
+	<item group="groupTreasureMaps" prob="0.15" count="1" />
+</lootgroup>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='empty']">
+<lootgroup name="req_allschematics" count="1"  >
+	<item name="drugHerbalAntibioticsSchematic" prob="0.3" count="1"  />
+	<item name="foodCanShamSchematic" prob="0.3" count="1"  />
+	<item name="drinkJarBeerSchematic" prob="0.3" count="1"  />
+	<item name="drinkJarCoffeeSchematic" prob="0.3" count="1"  />
+	<item name="drinkJarGoldenRodTeaSchematic" prob="0.3" count="1"  />
+	<item name="drinkJarGrandpasAwesomeSauceSchematic" prob="0.15" count="1"  />
+	<item name="drinkJarGrandpasLearningElixirSchematic" prob="0.15" count="1"  />
+	<item name="drinkJarGrandpasMoonshineSchematic" prob="0.15" count="1"  />
+	<item name="drinkJarRedTeaSchematic" prob="0.3" count="1"  />
+	<item name="drinkYuccaJuiceSmoothieSchematic" prob="0.3" count="1"  />
+	<item name="foodBaconAndEggsSchematic" prob="0.3" count="1"  />
+	<item name="foodBakedPotatoSchematic" prob="0.3" count="1"  />
+	<item name="foodBlueberryPieSchematic" prob="0.3" count="1"  />
+	<item name="foodPumpkinPieSchematic" prob="0.3" count="1"  />
+	<item name="foodPumpkinCheesecakeSchematic" prob="0.3" count="1"  />
+	<item name="foodPumpkinBreadSchematic" prob="0.3" count="1"  />
+	<item name="foodGumboStewSchematic" prob="0.3" count="1"  />
+	<item name="foodShepardsPieSchematic" prob="0.3" count="1"  />
+	<item name="foodSpaghettiSchematic" prob="0.3" count="1"  />
+	<item name="foodTunaFishGravyToastSchematic" prob="0.3" count="1"  />
+	<item name="foodChiliDogSchematic" prob="0.3" count="1"  />
+	<item name="foodCornBreadSchematic" prob="0.3" count="1"  />
+	<item name="foodCornOnTheCobSchematic" prob="0.3" count="1"  />
+	<item name="foodFishTacosSchematic" prob="0.3" count="1"  />
+	<item name="foodHoboStewSchematic" prob="0.3" count="1"  />
+	<item name="foodMeatStewSchematic" prob="0.3" count="1"  />
+	<item name="foodShamChowderSchematic" prob="0.3" count="1"  />
+	<item name="foodSteakAndPotatoSchematic" prob="0.3" count="1"  />
+	<item name="foodVegetableStewSchematic" prob="0.3" count="1"  />
+	<item name="drugAntibioticsSchematic" prob="0.3" count="1" />
+	<item name="medicalFirstAidKitSchematic" prob="0.3" count="1" />
+	<item name="medicalPlasterCastSchematic" prob="0.3" count="1" />
+	<item name="drugHerbalAntibioticsSchematic" prob="0.3" count="1" />
+	<item name="medicalFirstAidBandageSchematic" prob="0.3" count="1" />
+	<item name="modArmorInsulatedLinerSchematic" prob="0.3" count="1" />
+	<item name="modArmorCoolingMeshSchematic" prob="0.3" count="1" />
+	<item name="modArmorImprovedFittingsSchematic" prob="0.3" count="1" />
+	<item name="modArmorCustomizedFittingsSchematic" prob="0.3" count="1" />
+	<item name="modArmorPlatingBasicSchematic" prob="0.3" count="1" />
+	<item name="modArmorPlatingReinforcedSchematic" prob="0.3" count="1" />
+	<item name="modArmorStoragePocketSchematic" prob="0.3" count="1" />
+	<item name="modArmorDoubleStoragePocketSchematic" prob="0.3" count="1" />
+	<item name="modArmorTripleStoragePocketSchematic" prob="0.3" count="1" />
+	<item name="modArmorMuffledConnectorsSchematic" prob="0.3" count="1" />
+	<item name="modArmorAdvancedMuffledConnectorsSchematic" prob="0.3" count="1" />
+	<item name="modArmorImpactBracingSchematic" prob="0.3" count="1" />
+	<item name="modArmorBandolierSchematic" prob="0.3" count="1" />
+	<item name="modArmorWaterPurifierSchematic" prob="0.3" count="1" />
+	<item name="modArmorHelmetLightSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnClubT1BaseballBatSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnSledgeT1IronSledgehammerSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnBladeT1HuntingKnifeSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnBladeT3MacheteSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnBatonT2StunBatonSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnSpearT1IronSpearSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnKnucklesT1IronKnucklesSchematic" prob="0.3" count="1" />
+	<item name="meleeWpnKnucklesT3SteelKnucklesSchematic" prob="0.3" count="1" />
+	<item name="meleeToolSalvageT1WrenchSchematic" prob="0.3" count="1" />
+	<item name="meleeToolSalvageT2RatchetSchematic" prob="0.3" count="1" />
+	<item name="meleeToolSalvageT3ImpactDriverSchematic" prob="0.3" count="1" />
+	<item name="meleeToolPickT3AugerSchematic" prob="0.3" count="1" />
+	<item name="meleeToolAxeT3ChainsawSchematic" prob="0.3" count="1" />
+	<item name="meleeToolRepairT3NailgunSchematic" prob="0.3" count="1" />
+	<item name="modFuelTankSmallSchematic" prob="0.3" count="1" />
+	<item name="modFuelTankLargeSchematic" prob="0.3" count="1" />
+	<item name="modRoboticDroneCargoModSchematic" prob="0.3" count="1" />
+	<item name="modRoboticDroneMedicModSchematic" prob="0.3" count="1" />
+	<item name="modRoboticDroneHeadlampModSchematic" prob="0.3" count="1" />
+	<item name="modRoboticDroneArmorPlatingModSchematic" prob="0.3" count="1" />
+	<item name="modRoboticDroneMoraleBoosterModSchematic" prob="0.3" count="1" />
+	<item name="toolBellowsSchematic" prob="0.3" count="1" />
+	<item name="toolForgeCrucibleSchematic" prob="0.3" count="1" />
+	<item name="toolAnvilSchematic" prob="0.3" count="1" />
+	<item name="cementMixerSchematic" prob="0.3" count="1" />
+	<item name="workbenchSchematic" prob="0.3" count="1" />
+	<item name="forgeSchematic" prob="0.3" count="1" />
+	<item name="chemistryStationSchematic" prob="0.3" count="1" />
+	<item name="generatorbankSchematic" prob="0.3" count="1" />
+	<item name="pressureplateSchematic" prob="0.3" count="1" />
+	<item name="poweredDoorsSchematic" prob="0.3" count="1" />
+	<item name="bladeTrapSchematic" prob="0.3" count="1" />
+	<item name="dartTrapSchematic" prob="0.3" count="1" />
+	<item name="shotgunTurretSchematic" prob="0.3" count="1" />
+	<item name="autoTurretSchematic" prob="0.3" count="1" />
+	<item name="electricfencepostSchematic" prob="0.3" count="1" />
+	<item name="motionsensorSchematic" prob="0.3" count="1" />
+	<item name="speakerSchematic" prob="0.3" count="1" />
+	<item name="spotlightPlayerSchematic" prob="0.3" count="1" />
+	<item name="switchSchematic" prob="0.3" count="1" />
+	<item name="batterybankSchematic" prob="0.3" count="1" />
+	<item name="electrictimerrelaySchematic" prob="0.3" count="1" />
+	<item name="gunHandgunT1PistolSchematic" prob="0.3" count="1" />
+	<item name="gunHandgunT2Magnum44Schematic" prob="0.3" count="1" />
+	<item name="gunHandgunT3DesertVultureSchematic" prob="0.3" count="1" />
+	<item name="gunShotgunT1DoubleBarrelSchematic" prob="0.3" count="1" />
+	<item name="gunShotgunT2PumpShotgunSchematic" prob="0.3" count="1" />
+	<item name="gunShotgunT3AutoShotgunSchematic" prob="0.3" count="1" />
+	<item name="gunHandgunT3SMG5Schematic" prob="0.3" count="1" />
+	<item name="gunMGT1AK47Schematic" prob="0.3" count="1" />
+	<item name="gunMGT2TacticalARSchematic" prob="0.3" count="1" />
+	<item name="gunMGT3M60Schematic" prob="0.3" count="1" />
+	<item name="gunRifleT1HuntingRifleSchematic" prob="0.3" count="1" />
+	<item name="gunRifleT2LeverActionRifleSchematic" prob="0.3" count="1" />
+	<item name="gunRifleT3SniperRifleSchematic" prob="0.3" count="1" />
+	<item name="gunBowT1WoodenBowSchematic" prob="0.3" count="1" />
+	<item name="gunBowT3CompoundBowSchematic" prob="0.3" count="1" />
+	<item name="gunBowT1IronCrossbowSchematic" prob="0.3" count="1" />
+	<item name="gunBowT3CompoundCrossbowSchematic" prob="0.3" count="1" />
+	<item name="thrownAmmoPipeBombSchematic" prob="0.3" count="1" />
+	<item name="thrownGrenadeContactSchematic" prob="0.3" count="1" />
+	<item name="thrownGrenadeSchematic" prob="0.3" count="1" />
+	<item name="thrownDynamiteSchematic" prob="0.3" count="1" />
+	<item name="vehicleBicycleChassisSchematic" prob="0.3" count="1" />
+	<item name="vehicleBicycleHandlebarsSchematic" prob="0.3" count="1" />
+	<item name="vehicleMinibikeChassisSchematic" prob="0.3" count="1" />
+	<item name="vehicleMinibikeHandlebarsSchematic" prob="0.3" count="1" />
+	<item name="vehicleMotorcycleChassisSchematic" prob="0.3" count="1" />
+	<item name="vehicleMotorcycleHandlebarsSchematic" prob="0.3" count="1" />
+	<item name="vehicle4x4TruckChassisSchematic" prob="0.3" count="1" />
+	<item name="vehicle4x4TruckAccessoriesSchematic" prob="0.3" count="1" />
+	<item name="vehicleGyroCopterChassisSchematic" prob="0.3" count="1" />
+	<item name="vehicleGyroCopterAccessoriesSchematic" prob="0.3" count="1" />
+	<item name="modVehicleFuelSaverSchematic" prob="0.3" count="1" />
+	<item name="modVehicleOffRoadHeadlightsSchematic" prob="0.3" count="1" />
+	<item name="modVehicleSuperChargerSchematic" prob="0.3" count="1" />
+	<item name="modVehicleExpandedSeatSchematic" prob="0.3" count="1" />
+	<item name="modVehicleReserveFuelTankSchematic" prob="0.3" count="1" />
+	<item name="modMeleeTemperedBladeSchematic" prob="0.3" count="1" />
+	<item name="modMeleeSerratedBladeSchematic" prob="0.3" count="1" />
+	<item name="modMeleeWeightedHeadSchematic" prob="0.3" count="1" />
+	<item name="modMeleeStructuralBraceSchematic" prob="0.3" count="1" />
+	<item name="modMeleeErgonomicGripSchematic" prob="0.3" count="1" />
+	<item name="modMeleeFortifyingGripSchematic" prob="0.3" count="1" />
+	<item name="modMeleeClubBarbedWireSchematic" prob="0.3" count="1" />
+	<item name="modMeleeClubMetalSpikesSchematic" prob="0.3" count="1" />
+	<item name="modMeleeGraveDiggerSchematic" prob="0.3" count="1" />
+	<item name="modMeleeBunkerBusterSchematic" prob="0.3" count="1" />
+	<item name="modMeleeIronBreakerSchematic" prob="0.3" count="1" />
+	<item name="modMeleeWoodSplitterSchematic" prob="0.3" count="1" />
+	<item name="modMeleeClubBurningShaftSchematic" prob="0.3" count="1" />
+	<item name="modGunBarrelExtenderSchematic" prob="0.3" count="1" />
+	<item name="modGunMuzzleBrakeSchematic" prob="0.3" count="1" />
+	<item name="modGunSoundSuppressorSilencerSchematic" prob="0.3" count="1" />
+	<item name="modGunLaserSightSchematic" prob="0.3" count="1" />
+	<item name="modGunFlashlightSchematic" prob="0.3" count="1" />
+	<item name="modGunScopeSmallSchematic" prob="0.3" count="1" />
+	<item name="modGunScopeMediumSchematic" prob="0.3" count="1" />
+	<item name="modGunScopeLargeSchematic" prob="0.3" count="1" />
+	<item name="modGunReflexSightSchematic" prob="0.3" count="1" />
+	<item name="modGunTriggerGroupSemiSchematic" prob="0.3" count="1" />
+	<item name="modGunTriggerGroupBurst3Schematic" prob="0.3" count="1" />
+	<item name="modGunTriggerGroupAutomaticSchematic" prob="0.3" count="1" />
+	<item name="modGunBipodSchematic" prob="0.3" count="1" />
+	<item name="modGunForegripSchematic" prob="0.3" count="1" />
+	<item name="modGunRetractingStockSchematic" prob="0.3" count="1" />
+	<item name="modGunDuckbillSchematic" prob="0.3" count="1" />
+	<item name="modGunChokeSchematic" prob="0.3" count="1" />
+	<item name="modGunMagazineExtenderSchematic" prob="0.3" count="1" />
+	<item name="modShotgunSawedOffBarrelSchematic" prob="0.3" count="1" />
+	<item name="modGunCrippleEmSchematic" prob="0.3" count="1" />
+	<item name="modGunBowPolymerStringSchematic" prob="0.3" count="1" />
+	<item name="modGunBowArrowRestSchematic" prob="0.3" count="1" />
+	<item name="modGunMeleeTheHunterSchematic" prob="0.3" count="1" />
+	<item name="modGunMeleeRadRemoverSchematic" prob="0.3" count="1" />
+	<item name="modGunMeleeBlessedMetalSchematic" prob="0.3" count="1" />
+</lootgroup>
+</insertAfter>
+<remove xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']/item" />
+<append xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']" >
+<item group="groupAmmoLarge" count="3" />
+<item group="groupMedicalRare" count="2" />
+<item group="groupArmorScaled" count="2" />
+<item group="groupWeaponsAllScaledNoStone" count="2" />
+<item group="groupModAllScaled" count="2" />
+<item group="groupValuablesExtraLarge" />
+<item group="booksAllScaled" count="1" />
+<item name="oldCash" count="1000,5000" />
+</append>
+<set xpath="/lootcontainers/lootcontainer[@id='14']/@count" >1,2</set>
+<set xpath="/lootcontainers/lootcontainer[@id='14']/item/@group" >req_mailbox</set>
+</configs>
