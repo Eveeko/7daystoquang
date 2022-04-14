@@ -1,0 +1,25 @@
+<config>
+
+<append xpath="/lootcontainers">		
+	<!-- Condenser -->
+	<!-- the max cap for lootcontainer id is 1023 -->
+	
+	
+	<lootcontainer id="820" name="waterLootSingle" count="2" size="6,1" sound_open="cement_mixer_open" sound_close="cement_mixer_close" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+		<item name="drinkJarRiverWater" count="5" prob="0.01"/>  
+		<item name="drinkJarBoiledWater" count="5" prob="0.01"/>
+		<item name="drinkJarEmpty" count="5" prob="0.01"/> 
+	</lootcontainer>
+	
+	<lootcontainer id="822" name="waterLootQuad" count="2" size="6,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+		<item name="drinkJarRiverWater" count="20" prob="0.01"/>  
+		<item name="drinkJarBoiledWater" count="20" prob="0.01"/>
+		<item name="drinkJarEmpty" count="20" prob="0.01"/> 
+	</lootcontainer>
+	
+	
+	
+	
+</append>
+
+</config>

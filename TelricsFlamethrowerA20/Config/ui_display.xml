@@ -1,0 +1,11 @@
+<configs>
+<append xpath="/ui_display_info/item_display">
+		<item_display_info display_type="flamethrower" display_group="groupMelee">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkDemolitionsExpert"/>
+			<display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkDemolitionsExpert"/>
+			<display_entry name="MagazineSize" title_key="statFuelCapacity" tags="perkDemolitionsExpert" />
+			<display_entry name="RoundsPerMinute" title_key="statAttacksPerMinute" tags="perkDemolitionsExpert"/>
+			<display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkDemolitionsExpert"/>
+		</item_display_info>
+</append>
+</configs>

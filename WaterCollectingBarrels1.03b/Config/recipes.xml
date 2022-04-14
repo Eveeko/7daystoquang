@@ -1,0 +1,33 @@
+<stallionsden>
+	<append xpath="/recipes">
+	
+		<recipe name="resourceFilter" count="1" craft_area="workbench" craft_time="40" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="resourceScrapIron" count="50"/>
+			<ingredient name="resourceCoal" count="50"/>
+		</recipe>
+			
+		<recipe name="waterBarrelSingle" count="1" craft_time="60" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		
+		<recipe name="barrelSingleStep1" count="1" craft_time="60" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="waterBarrelSingle" count="1"/>
+			<ingredient name="resourceFilter" count="1"/>
+			<ingredient name="bucketEmpty" count="1"/>
+		</recipe>
+		
+		<recipe name="waterBarrelQuad" count="1" craft_time="60" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="resourceScrapPolymers" count="200"/>
+			<ingredient name="resourceForgedIron" count="40"/>
+		</recipe>
+		
+		<recipe name="barrelQuadStep1" count="1" craft_time="60" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="waterBarrelQuad" count="4"/>
+			<ingredient name="resourceFilter" count="4"/>
+			<ingredient name="bucketEmpty" count="4"/>
+		</recipe>
+
+
+	</append>
+</stallionsden>

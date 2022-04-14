@@ -1,0 +1,27 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+{my_key},{xml_file},{type_of_object},{true/false/null},{true/false/null},"{Localized_Name_Eng}"
+
+waterBarrelSingle,blocks,Container,,,"Empty Water Barrel",
+emptyWaterBarrelDesc,blocks,Container,,,An empty barrel used to make a Water Filter Barrel. Unlock at Advanced Engineering Level 3.,
+
+barrelSingleStep1,blocks,Container,,,"Empty Filter Barrel",
+barrelSingleStep1Desc,blocks,Container,,,An empty barrel purposed to filter water. Repair it with 10 Empty Glass Jars.\nWait ??? profit.\nUnlock at Advanced Engineering Level 3.,
+
+resourceFilter,items,Parts,,,"Filter",
+resourceFilterDesc,items,Parts,,,A car filter that can be repurposed for other things like to clean water.,
+
+barrelSingleStep2,blocks,Container,,,"Empty Filter Barrel Step 2",,
+
+barrelSingleStep3,blocks,Container,,,"Filled Water Barrel",
+filledWaterBarrelDesc,blocks,Container,,,A barrel that may contain water.,
+
+waterBarrelQuad,blocks,Container,,,"Four Empty Water Barrels",
+waterBarrelQuadDesc,blocks,Container,,,Four empty barrels used to make Water Filter Barrels.\nUnlock at Advanced Engineering Level 3.,
+
+barrelQuadStep1,blocks,Container,,,"Four Empty Filter Barrels",
+barrelQuadStep1Desc,blocks,Container,,,An empty barrel purposed to filter water. Repair it with 40 Empty Glass Jars.\nWait ??? profit.\nUnlock at Advanced Engineering Level 3.,
+
+barrelQuadStep2,blocks,Container,,,"Empty Four Filter Barrel Step 2",
+
+barrelQuadStep3,blocks,Container,,,"Four Filled Water Barrels",
+barrelQuadStep3Desc,blocks,Container,,,Four barrels that may contain water.,,

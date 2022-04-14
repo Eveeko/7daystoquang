@@ -1,0 +1,156 @@
+<configs>
+<append xpath="/buffs">
+<buff name="buffFlamethrowerFire"  hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value=".17" />
+		<effect_group name="Play Sounds">
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="SoundEffectFlamethrowerStart"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="SoundEffectFlamethrowerLoop"/>
+		</effect_group>
+		<effect_group name="Attach Particles">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="buffFlamethrowerFire"/>
+		
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleFlamethrowerFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Muzzle">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="0"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleFlamethrowerBlueFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Muzzle">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="1"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleFlamethrowerGreenFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Muzzle">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="2"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleFlamethrowerPinkFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Muzzle">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="3"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AddPart" part="FlamethrowerFire" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleFlamethrowerDarkFirePrefab" localPos="0,0,0" localRot="0,0,0" parentTransform="Muzzle">
+				<requirement name="CVarCompare" cvar="FlamethrowerColor" operation="Equals" value="4"/>
+			</triggered_effect>
+			
+			
+			<triggered_effect trigger="onSelfBuffFinish" action="RemovePart" part="FlamethrowerFire"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="FlamethrowerFire"/>
+		</effect_group>
+	</buff>
+<buff name="buffFlamethrowerIgnite" hidden="true">
+		<damage_type value="heat"/>
+		<stack_type value="replace"/>
+		<duration value="0"/>	
+		<update_rate value="1" />
+		<effect_group name="Set CVars">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="FlamethrowerIgniteDamage" operation="set" value="10"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="FlamethrowerIgniteDamage" operation="subtract" value="3"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="FlamethrowerIgniteDamage" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="0" target="self"/>
+				</triggered_effect>
+				
+		</effect_group>
+		<effect_group name="Remove if not on Fire">
+			<requirement name="NotHasBuff" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffFlamethrowerIgnite" target="self"/>
+		</effect_group>
+		<effect_group name="Reset CVar">
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="FlamethrowerIgniteColor" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="FlamethrowerIgniteColor" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyCVar" cvar="FlamethrowerIgniteColor" operation="set" value="0"/>
+		</effect_group>
+		<effect_group name="Remove on Death">
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffFlamethrowerIgnite" target="self"/>
+				
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgnitePrefab"/>	
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgnitePinkPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteGreenPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteDarkPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteBluePrefab"/>
+				
+				<triggered_effect trigger="onSelfBuffRemove" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgnitePrefab"/>	
+				<triggered_effect trigger="onSelfBuffRemove" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgnitePinkPrefab"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteGreenPrefab"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteDarkPrefab"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteBluePrefab"/>
+				
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgnitePrefab"/>	
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgnitePinkPrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteGreenPrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteDarkPrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="ParticleEffectFlamethrowerIgniteBluePrefab"/>
+		</effect_group>
+		<effect_group name="Deal Damage">
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="3">
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="19" target="self"/>
+			</passive_effect>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="5">
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="GTE" value="20" target="self"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="34" target="self"/>
+			</passive_effect>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="9">
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="GTE" value="35" target="self"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="49" target="self"/>
+			</passive_effect>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="15">
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="GTE" value="50" target="self"/>
+			</passive_effect>
+
+	<!-- Bonus for radiated -->
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="4">
+				<requirement name="EntityTagCompare" tags="radiated"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="19" target="self"/>
+			</passive_effect>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="6">
+				<requirement name="EntityTagCompare" tags="radiated"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="GTE" value="20" target="self"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="34" target="self"/>
+			</passive_effect>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="14">
+				<requirement name="EntityTagCompare" tags="radiated"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="GTE" value="35" target="self"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="LTE" value="49" target="self"/>
+			</passive_effect>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="20">
+				<requirement name="EntityTagCompare" tags="radiated"/>
+				<requirement name="CVarCompare" cvar="FlamethrowerIgniteDamage" operation="GTE" value="50" target="self"/>
+			</passive_effect>
+		</effect_group>
+		<effect_group name="Attach Particles: Default">
+			<requirement name="CVarCompare" cvar="FlamethrowerIgniteColor" operation="Equals" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgnitePrefab" local_offset="0,.75,0" parent_transform="Hips"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgnitePrefab" local_offset="0,.75,0" parent_transform="Origin"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgnitePrefab" local_offset="0,.75,0" parent_transform="Global"/>
+				
+		</effect_group>
+		<effect_group name="Attach Particles: Pink">
+			<requirement name="CVarCompare" cvar="FlamethrowerIgniteColor" operation="Equals" value="3"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgnitePinkPrefab" local_offset="0,.75,0" parent_transform="Hips"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgnitePinkPrefab" local_offset="0,.75,0" parent_transform="Origin"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgnitePinkPrefab" local_offset="0,.75,0" parent_transform="Global"/>
+				
+		</effect_group>
+		<effect_group name="Attach Particles: Green">
+			<requirement name="CVarCompare" cvar="FlamethrowerIgniteColor" operation="Equals" value="2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteGreenPrefab" local_offset="0,.75,0" parent_transform="Hips"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteGreenPrefab" local_offset="0,.75,0" parent_transform="Origin"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteGreenPrefab" local_offset="0,.75,0" parent_transform="Global"/>
+			
+		</effect_group>
+		<effect_group name="Attach Particles: Dark">
+			<requirement name="CVarCompare" cvar="FlamethrowerIgniteColor" operation="Equals" value="4"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteDarkPrefab" local_offset="0,.75,0" parent_transform="Hips"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteDarkPrefab" local_offset="0,.75,0" parent_transform="Origin"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteDarkPrefab" local_offset="0,.75,0" parent_transform="Global"/>
+			
+		</effect_group>
+		<effect_group name="Attach Particles: Blue">
+			<requirement name="CVarCompare" cvar="FlamethrowerIgniteColor" operation="Equals" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteBluePrefab" local_offset="0,.75,0" parent_transform="Hips"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteBluePrefab" local_offset="0,.75,0" parent_transform="Origin"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsFlamethrowerA20.unity3d?ParticleEffectFlamethrowerIgniteBluePrefab" local_offset="0,.75,0" parent_transform="Global"/>
+				
+		</effect_group>
+</buff>
+
+</append>
+</configs>

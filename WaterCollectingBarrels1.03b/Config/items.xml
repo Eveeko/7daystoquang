@@ -1,0 +1,30 @@
+<config>
+
+	<!-- Increases Boiled Water Stack Size 10 to 20. So when using the Quad Barrel you get 40 back. -->
+	<setattribute xpath="//item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']" name="value">20</setattribute>
+	
+	<!-- Filter -->
+	<append xpath="/items">
+	<item name="resourceFilter">
+		<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="Tags" value="water,junk"/>
+		<property name="FilterTags" value="water"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Miron_scrap"/>
+		<property name="Stacknumber" value="25"/> <!-- STK loot -->
+		<property name="Weight" value="15"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="Group" value="Resources"/>
+	</item>
+	</append>
+
+	<!-- Makes it so Empty Glass Jars can be used as upgrade materials -->
+<append xpath="//item[contains(@name, 'melee')]/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,drinkJarEmpty</append>
+
+
+
+	
+	
+</config>

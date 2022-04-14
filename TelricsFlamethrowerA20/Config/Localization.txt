@@ -1,0 +1,13 @@
+Key,english,japanese
+------------------Colors Orange  Blue [2b87eb]----------------
+weaponFlamethrower,"Flamethrower","火炎放射器"
+weaponFlamethrowerDesc,"A combination of pipes and gas, this puppy can set fire to a large amount of walkers very quickly. It's damage increases the longer you burn the enemy. This weapon also does 75% additional damage to wood structures.\n\nThis weapon uses Demolition Expert perks.",""
+weaponFlamethrowerSchematic,"Schematic: Flamethrower","火炎放射器の図"
+modBlueCanister,"Blue Flamethrower Canister","水色炎燃料缶"
+modBlueCanisterDesc,"This canister can be equipped on a flamethrower to change the color of the flames.","この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入"
+modGreenCanister,"Green Flamethrower Canister","緑色炎燃料缶"
+modGreenCanisterDesc,"This canister can be equipped on a flamethrower to change the color of the flames.","この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入"
+modPinkCanister,"Pink Flamethrower Canister","ピンク色炎燃料缶"
+modPinkCanisterDesc,"This canister can be equipped on a flamethrower to change the color of the flames.","この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入"
+modDarkCanister,"Dark Flamethrower Canister","青色炎燃料缶"
+modDarkCanisterDesc,"This canister can be equipped on a flamethrower to change the color of the flames.","この燃料缶を火炎放射器に改造パーツとしてセットすると炎の色が変化します。\n\n入手方法：　ルート、もしくは購入"
